@@ -10,6 +10,12 @@ The articles are sorted by date, recent papers should appear at the earlier than
 
 ## Images
 
+**July 2023** [“Conducted Properly, Published Incorrectly”: The Evolving Status of Gel Electrophoresis Images Along Instrumental Transformations in Times of Reproducibility Crisis](https://onlinelibrary.wiley.com/doi/10.1002/bewi.202200051) - Callaerts, N. et al.
+
+-  "Our aim is to analyze the evolving epistemic status of generated images and its connection with a crisis of trust in images within that field". They are focused on Gel Electrophoresis images
+
+
+
 **Sep 2022**- [Blind spots on western blots: Assessment of common problems in western blot figures and methods reporting with recommendations to improve them](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001783) - Kronn, C. et al.
 
 - Systematically examined 551 articles published in the top 25% of journals in neurosciences (n = 151) and cell biology (n = 400) that contained western blot images, focusing on practices that may omit important information. The data show that most published western blots are cropped, and blot source data are not made available to readers in the supplement.
@@ -138,6 +144,12 @@ The articles are sorted by date, recent papers should appear at the earlier than
 
 
 ## Other issues
+
+**May 2023**- [Science Fraud?](https://psblab.org/?page_id=778) (:fire::fire:) - Paul S. Brookes
+
+- Discussion about a the research misconduct and reporting context by PSB.
+
+
 
 **Sep 2021** - [Research Misconduct and Citation Gaming: A Critical Review on Characterization and Recent Trends of Research Manipulation](https://link.springer.com/chapter/10.1007/978-981-16-2937-2_30) - Chakraborty J.,  Pradhan K. D.,  and Nandi S.
 
