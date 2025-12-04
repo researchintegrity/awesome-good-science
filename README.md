@@ -24,19 +24,17 @@ Papers and reports denouncing cases of possible scientific misconduct or related
 
 ### Integrity Reports
 
-**2025** - [The entities enabling scientific fraud at scale are large, resilient, and growing rapidly](https://www.pnas.org/doi/10.1073/pnas.2420092122) - Richardson, R.A.K. et al.
+**2025** - [The entities enabling scientific fraud at scale are large, resilient, and growing rapidly](https://www.pnas.org/doi/10.1073/pnas.2420092122) - Richardson, R.A.K. et al. - [Video](https://www.youtube.com/watch?v=YdVwUv1bfWE)
 
 - Discusses the industrial scale of "paper mills," revealing that they are growing rapidly (doubling every ~1.5 years) and are resilient to current interventions like retractions.  
-- [Video Presentation](https://www.youtube.com/watch?v=YdVwUv1bfWE)
 
-**2025** - [The View from a Mega Journal](https://www.youtube.com/watch?v=5bNVQXpQpUw) - Spick, M.
+**2025** - The View from a Mega Journal- Spick, M. -[Video](https://www.youtube.com/watch?v=5bNVQXpQpUw) 
 
 - A presentation discussing paper mills and integrity issues from the perspective of a mega-journal editor and researcher.
 
-**2025** - [Retracted clinical trials in systematic reviews and guidelines](https://www.bmj.com/content/389/bmj.r724) - Avenell, A., Bolland, M.J., et al.
+**2025** - [Retracted clinical trials in systematic reviews and guidelines](https://www.bmj.com/content/389/bmj.r724) - Avenell, A., Bolland, M.J., et al. - [Video](https://youtu.be/u692orGfu1Q?si=Ug2d2hCBsujbT84t)
 
 - Investigates the extent to which retracted clinical trials continue to be cited in systematic reviews and clinical guidelines, potentially compromising medical advice.  
-- [Video Presentation](https://youtu.be/u692orGfu1Q?si=Ug2d2hCBsujbT84t)
 
 **2025** - [Misconduct Detection — Evolving Methods & Lessons from 15 Years of Scientific Image Sleuthing](https://www.cambridge.org/core/journals/journal-of-law-medicine-and-ethics/article/misconduct-detection-evolving-methods-lessons-from-15-years-of-scientific-image-sleuthing/B10AC2793CC5DA6DE8A37E6893CB55A4) - Brookes, P.S.
 
@@ -50,24 +48,20 @@ Papers and reports denouncing cases of possible scientific misconduct or related
 
 - Examines how the author-pays model of Open Access creates perverse incentives and contributes to the stratification of publishing.  
 
-**2024** - [The landscape of biomedical research](https://www.cell.com/patterns/fulltext/S2666-3899(24)00076-X) - González-Márquez, R. et al.
+**2024** - [The landscape of biomedical research](https://www.cell.com/patterns/fulltext/S2666-3899(24)00076-X) - González-Márquez, R. et al. - [Video](https://youtu.be/zDDa3pWYadQ?si=cmhxVAr6xTQy_25t)
 
 - Uses text mining and visualization techniques to identify clusters of papers with suspiciously similar textual features, potentially indicating paper mill activity.  
-- [Video Presentation](https://youtu.be/zDDa3pWYadQ?si=cmhxVAr6xTQy_25t)
 
-**2024** - [Image misconduct in published research articles - how to spot them and how to prevent them](https://youtu.be/J6ANspM6tA4?si=_IWwCyc8nj44GwjP) - Bazargan, K.
+**2024** - [Image misconduct in published research articles - how to spot them and how to prevent them](https://youtu.be/J6ANspM6tA4?si=_IWwCyc8nj44GwjP) - Bazargan, K. - [Video](https://youtu.be/--E9_WUrgDs?si=PAZwXzXb-AQ3TdsM)
 
 - A presentation by the founder of River Valley Technologies discussing image manipulation and the importance of using high-resolution and vector graphics to prevent it.
 
-**2023** - [Screening studies for fake research](https://youtu.be/--E9_WUrgDs?si=PAZwXzXb-AQ3TdsM) - Lisa Parker
+**2023** - Screening studies for fake research - Lisa Parker - [Video](https://youtu.be/--E9_WUrgDs?si=PAZwXzXb-AQ3TdsM)
 
-- [Video Presentation](https://youtu.be/--E9_WUrgDs?si=PAZwXzXb-AQ3TdsM)
 
-**2023** - [Seven signs of fraud in individual participant data](https://youtu.be/7qr8Us-PF6A?si=_6g8T0TdvoG4ttgb) - Khoo, S.Y.S.
+**2023** - [Seven signs of fraud in individual participant data](https://youtu.be/7qr8Us-PF6A?si=_6g8T0TdvoG4ttgb) - Khoo, S.Y.S. - [Video](https://youtu.be/7qr8Us-PF6A?si=_6g8T0TdvoG4ttgb)
 
 The inspiration for the talk was the trails of ivermectin for treatment of COVID-19. The seven techniques ranges from blatant cases such as duplicate patients, through to more subtle manifestations such as unlikely homogeneity or heterogeneity.
-
-- [Video Presentation](https://youtu.be/7qr8Us-PF6A?si=_6g8T0TdvoG4ttgb)
 
 **2023** - [“Conducted Properly, Published Incorrectly”: The Evolving Status of Gel Electrophoresis Images Along Instrumental Transformations in Times of Reproducibility Crisis](https://onlinelibrary.wiley.com/doi/10.1002/bewi.202200051) - Callaerts, N. et al.
 
@@ -77,10 +71,10 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
 
 - MCB instituted a pilot program to screen images of accepted papers prior to publication.
 
-**2022** - [Quality Output Checklist and Content Assessment (QuOCCA): a new tool for assessing research quality and reproducibility](https://bmjopen.bmj.com/content/12/9/e060976) - Héroux, M.E. et al.
+**2022** - [Quality Output Checklist and Content Assessment (QuOCCA): a new tool for assessing research quality and reproducibility](https://bmjopen.bmj.com/content/12/9/e060976) - Héroux, M.E. et al. - [Video](https://www.youtube.com/watch?v=t9xs7rTdR7E)
 
 - Presents QuOCCA, a tool for assessing research quality and reproducibility in biomedical publications.  
-- [Video Presentation](https://www.youtube.com/watch?v=t9xs7rTdR7E)
+
 
 **2022** - [Blind spots on western blots: Assessment of common problems in western blot figures and methods reporting with recommendations to improve them](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001783) - Kronn, C. et al.
 
@@ -130,8 +124,7 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
 **2025** - [MultiFakeVerse: A Large-Scale Benchmark for Synthetic Image Detection in the Era of Vision-Language Models](https://arxiv.org/abs/2506.00868) - Gupta, P. et al.
 - A large-scale deepfake dataset containing over 800,000 images generated by Vision-Language Models (VLMs) to benchmark detection of semantic image manipulations.
 
-**2025** - [Forensics-Bench: A Comprehensive Forgery Detection Benchmark Suite for
-Large Vision Language Models](https://arxiv.org/abs/2503.15024) - Wang, J. et al.
+**2025** - [Forensics-Bench: A Comprehensive Forgery Detection Benchmark Suite for Large Vision Language Models](https://arxiv.org/abs/2503.15024) - Wang, J. et al.
 - A benchmark for fake image detection that contains 1.44 million images generated by 38 diverse forgery methods to evaluate the performance of 50 state-of-the-art detection algorithms.
 
 **2024** - [Explainable Artifacts for Synthetic Western Blot Source Attribution](https://ieeexplore.ieee.org/document/10810680) - Cardenuto, J.P. et al.
@@ -152,15 +145,11 @@ Large Vision Language Models](https://arxiv.org/abs/2503.15024) - Wang, J. et al
 
 **2024** - [AI-Powered Western Blot Interpretation: A Novel Approach to Studying the Frameshift Mutant of Ubiquitin B (UBB+1) in Schizophrenia](https://www.mdpi.com/2076-3417/14/10/4149) - Fabijan, A. et al.
 
-- Discusses the application of AI in analyzing western blot data, offering potential insights for objective interpretation.
-
 **2023** - [A Comprehensive Survey on Methods for Image Integrity](https://dl.acm.org/doi/10.1145/3633203) - Capasso, P. et al.
 
 - A comprehensive survey reviewing methods for ensuring image integrity.
 
-**2023** - [Forensic Analysis of Scientific Images](https://youtu.be/DXfcckLSG3c?si=FepYfY6AXpNwW_sY) - Daniel Acuna, Guillaume Cabanac, Cyril Labbe, Jennifer Byrne
-
-- [Video Presentation](https://youtu.be/DXfcckLSG3c?si=FepYfY6AXpNwW_sY)
+**2023** - Forensic Analysis of Scientific Images - Daniel Acuna, Guillaume Cabanac, Cyril Labbe, Jennifer Byrne - [Video](https://youtu.be/DXfcckLSG3c?si=FepYfY6AXpNwW_sY)
 
 
 **2023** - [GH-DDM: the generalized hybrid denoising diffusion model for medical image generation](https://link.springer.com/article/10.1007/s00530-023-01059-0) - Zhang, S. et al.
@@ -183,7 +172,6 @@ Large Vision Language Models](https://arxiv.org/abs/2503.15024) - Wang, J. et al
 
 - Proposed a dataset synthetically build with scientific forgeries (duplication and splicing). Using the dataset, they benchmarked the state-of-the-art copy-move forgery detectors of the epochs, which resulted in low performance for scientific images.
 
-
 **2022** - [Forensic Analysis of Synthetically Generated Western Blot Images](https://ieeexplore.ieee.org/abstract/document/9785655) - Mandelli, S. et al.
 
 - Analyzes synthetically generated western blot images for forensic purposes.
@@ -191,7 +179,6 @@ Large Vision Language Models](https://arxiv.org/abs/2503.15024) - Wang, J. et al
 **2020** - [Scientific image tampering detection based on noise inconsistencies: A method and datasets](https://arxiv.org/abs/2001.07799) - Xiang, Z. and Acuna, D.E.
 
 - Introduces a method using noise inconsistencies and a new dataset for image tampering detection.  
-
 
 **2018** - [Automatic detection of image manipulations in the biomedical literature](https://www.nature.com/articles/s41419-018-0430-3) - Bucci, E.M.
 
@@ -205,19 +192,18 @@ Large Vision Language Models](https://arxiv.org/abs/2503.15024) - Wang, J. et al
 
 - Discusses techniques for detecting digital forgeries in scientific images.
 
-### Image Integrity Datasets
+### Public Image Integrity Datasets
 
-- [MultiFakeVerse](https://arxiv.org/abs/2506.00868)
-  - A large-scale deepfake dataset containing over 800,000 images generated by Vision-Language Models (VLMs).
-- [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/)  
-  * 371,920 chest X-rays associated with 227,943 imaging studies from 65,079 patients.  
-  * It might be useful to access the [MIMIC-CXR-JPG](https://physionet.org/content/mimic-cxr-jpg/2.1.0/), with images already in JPEG.  
+
 - [Recod.ai Scientific Image Integrity Dataset (RSIID)](https://zenodo.org/records/15095089)
-- A benchmark dataset designed for evaluating forgery detection methods in scientific images.
+  * A benchmark dataset designed for evaluating forgery detection methods in scientific images.
 - [Scientific Papers (SILA) Dataset](https://www.nature.com/articles/s41598-022-21535-3)  
   * Introduced in the SILA paper (2022), it contains scientific papers with annotated reuse and manipulation.  
 - [Synthetic Western Blots Dataset](https://ieeexplore.ieee.org/abstract/document/9785655)  
   * A dataset of synthetically generated western blot images for forensic analysis (Mandelli et al., 2022).  
+- [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/)  
+  * 371,920 chest X-rays associated with 227,943 imaging studies from 65,079 patients.  
+  * It might be useful to access the [MIMIC-CXR-JPG](https://physionet.org/content/mimic-cxr-jpg/2.1.0/), with images already in JPEG.
 
 ## Text Integrity
 
@@ -243,7 +229,7 @@ Large Vision Language Models](https://arxiv.org/abs/2503.15024) - Wang, J. et al
 
 - The seminal paper identifying "tortured phrases" (e.g., "counterfeit consciousness" instead of "artificial intelligence") resulting from spinning software used to mask plagiarism.
 
-### Text Integrity Datasets
+### Public Text Integrity Datasets
 
 - [Problematic Paper Screener (PPS)](https://www.irit.fr/~Guillaume.Cabanac/problematic-paper-screener)  
   * A platform and dataset leveraging human assessment and automatic detection to flag articles containing "tortured phrases" and other anomalies.
@@ -291,12 +277,6 @@ Papers discussing attributes of science, evolution, publication trends, and fund
 
 - [Result Sheet](https://stm-assoc.org/document/image-alterations-duplications-consultation-comparison/)
 
-## Related Awesome Lists
-
-- [awesome-computational-social-science](https://github.com/gesiscss/awesome-computational-social-science) - Resources for computational social science, including social data biases and ethics.
-- [awesome-open-science-software](https://github.com/inria/awesome-open-science-software) - Curated list of open source software for open science.
-- [awesome-safety-critical-ai](https://github.com/dependable-ai/awesome-safety-critical-ai) - Resources for safety-critical AI, including reliability and failure mode analysis.
-- [awesome-computational-biology](https://github.com/manuzhang/awesome-computational-biology) - Curated list of computational biology resources.
 
 ## Organizations
 
@@ -346,6 +326,15 @@ Papers discussing attributes of science, evolution, publication trends, and fund
 | [Science and Engineering Ethics](https://link.springer.com/journal/11948) | Multidisciplinary journal exploring ethical issues in science and engineering practice, including data integrity. |
 | [PLOS ONE](https://journals.plos.org/plosone/) | Multidisciplinary open access journal publishing meta-research and studies on reproducibility and negative results. |
 | [Patterns](https://www.cell.com/patterns/home) | Data science journal focusing on data sharing, reusability, and open data infrastructure. |
+
+
+## Related Awesome Lists
+
+- [awesome-computational-social-science](https://github.com/gesiscss/awesome-computational-social-science) - Resources for computational social science, including social data biases and ethics.
+- [awesome-open-science-software](https://github.com/inria/awesome-open-science-software) - Curated list of open source software for open science.
+- [awesome-safety-critical-ai](https://github.com/dependable-ai/awesome-safety-critical-ai) - Resources for safety-critical AI, including reliability and failure mode analysis.
+- [awesome-computational-biology](https://github.com/manuzhang/awesome-computational-biology) - Curated list of computational biology resources.
+
 
 ## Contributing
 
