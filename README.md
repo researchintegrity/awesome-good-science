@@ -209,12 +209,13 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
 
 ### Text Integrity Methods
 
-**2025** - [Sneaked references: The invisible citation fraud](https://arxiv.org/abs/2310.02192) - Besançon, L., Cabanac, G., Labbé, C., et al.
-- Documents the manipulation of metadata to inflate citation counts via "invisible" references.
-
-**2025** - [Revealing the Paper Mill Iceberg: AI-Based Screening of Cancer Research Publications](https://www.biorxiv.org/content/10.1101/2025.08.29.673016v1) - Scancar, B. et al.
+**2026** - [Machine learning based screening of potential paper mill publications in cancer research: methodological and cross sectional study](https://doi.org/10.1136/bmj-2025-087581) - Scancar, B., Byrne, J., Causeur, D., and Barnett, A
 
 - Proposed a BERT-based model to identify Paper Mill papers using their Titles and Abstracts..
+
+**2024** - [Sneaked references: The invisible citation fraud](https://asistdl.onlinelibrary.wiley.com/doi/10.1002/asi.24896) - Besançon, L., Cabanac, G., Labbé, C., et al.
+
+- Documents the manipulation of metadata to inflate citation counts via "invisible" references.
 
 
 **2024** - [Characterizing the Increase in Artificial Intelligence Content Detection in Oncology Scientific Abstracts From 2021 to 2023](https://ascopubs.org/doi/abs/10.1200/CCI.24.00077) - Pearson, A.T. et al.
