@@ -44,7 +44,7 @@ logger = logging.getLogger("curate_articles")
 # ---------------------------------------------------------------------------
 REPO_ROOT = Path(__file__).resolve().parent.parent
 README_PATH = REPO_ROOT / "README.md"
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-3.6-flash"
 MAX_RETRIES = 3
 RETRY_BASE_DELAY = 2  # seconds
 SEARCH_WINDOW_DAYS = 14
