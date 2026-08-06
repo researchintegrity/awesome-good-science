@@ -1,0 +1,77 @@
+name: Weekly Literature Curation
+
+on:
+  schedule:
+    # Every Monday at 09:00 UTC
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+    # Allow manual trigger from the Actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  curate:
+    name: Curate New Articles
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Checkout ────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # ── 2. Python setup ────────────────────────────────────────────────
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      # ── 3. Install dependencies ────────────────────────────────────────
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ── 4. Run curation script ─────────────────────────────────────────
+      - name: Run curate_articles.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/curate_articles.py
+
+      # ── 5. Create Pull Request ─────────────────────────────────────────
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: curation/update-${{ github.run_id }}
+          delete-branch: true
+          title: "📚 Weekly Literature Update — ${{ github.event.repository.name }}"
+          body: |
+            ## Automated Literature Curation
+
+            This PR was generated automatically by the **Weekly Literature Curation** workflow.
+
+            ### What happened
+            - The [curate_articles.py](scripts/curate_articles.py) script queried the **Google Gemini API** with **Search Grounding** to discover new research-integrity literature published in the last 14 days.
+            - New entries were formatted to match the repository's Markdown style and inserted into the appropriate sections of `README.md`.
+            - Duplicate URLs already present in the repository were filtered out.
+
+            ### Action required
+            Please **review the changes** carefully before merging:
+            - [ ] Verify that all URLs resolve to the correct publications
+            - [ ] Confirm titles, authors, and summaries are accurate
+            - [ ] Check that entries are placed in the correct sections
+            - [ ] Ensure the Markdown formatting is consistent
+
+            > [!NOTE]
+            > This PR was created by a GitHub Actions workflow using AI-assisted search.
+            > Human review is required before merging.
+
+            ---
+            *Workflow run: [`${{ github.run_id }}`](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})*
+          commit-message: "docs: add weekly curated literature entries"
+          labels: |
+            automated
+            curation

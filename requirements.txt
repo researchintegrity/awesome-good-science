@@ -1,0 +1,6 @@
+# Dependencies for the automated literature curation pipeline
+# Install with: pip install -r requirements.txt
+
+google-genai>=1.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
