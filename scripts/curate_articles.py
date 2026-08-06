@@ -26,7 +26,8 @@ import time
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Any
+from google import genai
+from google.genai import types
 
 # ---------------------------------------------------------------------------
 # Logging
