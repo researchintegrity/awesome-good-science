@@ -1,9 +1,9 @@
 name: Weekly Literature Curation
 
 on:
-  schedule:
-    # Every Monday at 09:00 UTC
-    - cron: "0 9 * * 1"
+  # Schedule disabled for now — use workflow_dispatch to run manually
+  # schedule:
+  #   - cron: "0 9 * * 1"
   workflow_dispatch:
     # Allow manual trigger from the Actions tab
 
