@@ -45,11 +45,11 @@ logger = logging.getLogger("curate_articles")
 REPO_ROOT = Path(__file__).resolve().parent.parent
 README_PATH = REPO_ROOT / "README.md"
 DEFAULT_MODEL = "gemini-3.6-flash"
-MAX_RETRIES = 3
-RETRY_BASE_DELAY = 2  # seconds
+MAX_RETRIES = 5
+RETRY_BASE_DELAY = 5  # seconds
 SEARCH_WINDOW_DAYS = 14
 # Delay between Gemini calls to avoid rate-limit bursts (seconds)
-INTER_QUERY_DELAY = 3
+INTER_QUERY_DELAY = 8
 
 
 # ---------------------------------------------------------------------------
