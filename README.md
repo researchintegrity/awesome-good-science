@@ -13,6 +13,7 @@
   - [Datasets](#text-integrity-datasets)
 - [Gene Integrity](#gene-integrity)
 - [Statistics and Science of Science](#statistics-and-science-of-science)
+  - [Datasets](#public-retraction-datasets)
 - [Commercial Tools](#commercial-tools)
 - [Organizations](#organizations)
 - [Conferences and Journals](#conferences-and-journals)
@@ -23,6 +24,78 @@
 Papers and reports denouncing cases of possible scientific misconduct or related issues.
 
 ### Integrity Reports
+
+**2026** - [Follow-up investigation of ethics approvals and regulatory compliance in publications from the IHU-Mi](https://doi.org/10.1186/s41073-026-00234-x) - Frank, F., Bik, E.M., Meyerowitz-Katz, G., et al.
+
+- Audited 2,674 publications from the IHU-Méditerranée Infection, finding ethical concerns in 853 articles and mismatches between stated approvals and the research actually described in 81.3% of the 374 cases where approval documents were obtained.
+
+**2026** - [Zombie trials are often monocentric and cluster within fabricated evidence "factories": a cohort study of 236 retracted randomized controlled trials with confirmed data fabrication](https://doi.org/10.64898/2026.07.23.26357975) - Jajieh, T., Chapelle, C., Lemarchand, C., et al.
+
+- Of 236 RCTs retracted for confirmed data fabrication, 83.5% involved repeat offenders and a single author accounted for 104 trials; repeat-offender trials took 13.6 years to retract versus 2.75 years for one-off cases.
+
+**2026** - [Fabricated citations: an audit across 2·5 million biomedical papers](https://doi.org/10.1016/S0140-6736(26)00603-3) - Topaz, M., Roguin, N., Gupta, P., et al.
+
+- An AI-assisted audit of ~2.5 million open-access papers and ~97 million references found nearly 3,000 papers citing publications that cannot be matched to any known work, with fabricated-citation rates rising roughly 12-fold in two years.
+
+**2026** - [Research integrity within systematic reviews: investigating the prevalence of studies by authors with multiple retraction histories in Cochrane reviews](https://doi.org/10.1186/s41073-026-00205-2) - Zaw, T.M.M., Heathers, J., and Meyerowitz-Katz, G.
+
+- Across 9,323 Cochrane reviews, 81 cite work by authors with 24 or more retractions, and only 6 of the 32 reviews that meta-analysed such studies ran a sensitivity analysis excluding them.
+
+**2026** - [Publishers' responses to integrity concerns – does the type of notice influence subsequent citations? A cohort study](https://doi.org/10.64898/2026.02.25.26346683) - Studd, H., Avenell, A., Grey, A., and Bolland, M.J.
+
+- Citation decline after an editorial notice did not differ by notice type, nor from the natural decline of matched controls; notices arrive on average five years after publication, by which point the papers are already embedded.
+
+**2026** - [Editorial expressions of concern are infrequent even for researchers with multiple retracted publications – An observational study](https://doi.org/10.1080/08989621.2026.2671154) - Grey, A., Avenell, A., and Bolland, M.
+
+- Journals rarely issue expressions of concern about the remaining literature of authors who already have multiple retractions, leaving the unretracted work of serial offenders unflagged.
+
+**2026** - [Suspected distortion of citations in high-impact cancer journals](https://doi.org/10.64898/2026.05.25.727627) - Scancar, B., Byrne, J.A., Causeur, D., and Barnett, A. - [News](https://www.nature.com/articles/d41586-026-01908-8)
+
+- Molecular cancer papers carrying the textual signature of retracted paper-mill articles receive 50–100% more citations than comparable articles while attracting fewer readers, evidence of deliberate citation inflation feeding journal impact factors.
+
+**2026** - [When science corrects itself but patents do not: Retractions, boundary infrastructure, and downstream invention](https://doi.org/10.2139/ssrn.6904220) - Kim, H.
+
+- Screened 13 million US patents and found 401 citing retracted papers, with 71.6% of those exposures falling in windows where a correction was still actionable before filing or during examination.
+
+**2026** - [The 'shades of grey' in research integrity—Researchers admit to questionable research practices that they do not perceive to be serious](https://doi.org/10.1371/journal.pone.0339056) - Entradas, M., Feng, Y., and Carneiro e Sousa, I.
+
+- In a survey of 1,573 researchers, about 92% admitted to at least one questionable research practice, with engagement predicted most strongly by perceiving the practice as not serious.
+
+**2026** - ['A waste of time for all of us': caught in the crossfire of the peer-review wars](https://www.nature.com/immersive/d41586-026-01360-8/index.html) - Zimmer, K.
+
+- A long-form investigation into "review mills" producing duplicated peer-review reports that demand coercive citations, spanning thousands of manuscripts across MDPI, Springer Nature and Taylor & Francis.
+
+**2026** - [Hallucinated citations are polluting the scientific literature. What can be done?](https://www.nature.com/articles/d41586-026-00969-z) - Naddaf, M., and Quill, E.
+
+- A news feature surveying the fabricated-reference problem and the detection landscape responding to it, reporting that tens of thousands of 2025 publications may carry invalid citations.
+
+**2026** - [Growing use of guest editors has turned some journals into a 'playground of bad science'](https://www.statnews.com/2026/04/24/science-journal-retractions-highlight-guest-editor-special-edition-problem/) - Oza, A.
+
+- Reports on guest-edited special issues as the main vector for paper-mill output, hung on the near-total retraction of one guest-edited special issue for compromised peer review.
+
+**2026** - [Controversial editorial practices boost plastic surgeon's publishing empire](https://retractionwatch.com/2026/03/12/riaz-agha-international-journal-surgery-research-registry-wolters-kluwer/) - Joelving, F.
+
+- An investigation showing that self-citation of reporting guidelines supplied 3.4 points of one journal's 15.3 impact factor; Clarivate placed six of the group's journals on hold in Web of Science three months later.
+
+**2026** - [Office of Research Integrity Annual Report 2025](https://ori.hhs.gov/sites/default/files/2026-08/2025%20ORI%20Annual%20Report_final.pdf) - Office of Research Integrity (ORI), U.S. Department of Health and Human Services
+
+- ORI received 446 misconduct allegations in CY2025 and closed 177 cases, returning 43 findings of research misconduct, 2 debarments and 3 supervision plans.
+
+**2026** - [Safeguarding Scholarly Communication: Publisher Practices to Uphold Research Integrity](https://stm-assoc.org/new-report-documents-publisher-investment-in-research-integrity-infrastructure/) - Storan, D., and Chiarelli, A., for the STM Research Integrity Committee
+
+- An industry stocktake reporting research-integrity teams of 100+ staff at some publishers and over 2 million submissions screened in 8–9 months, while concluding that publisher action alone is insufficient.
+
+**2026** - [AI-Generated Figures in Academic Publishing: Policies, Tools, and Practical Guidelines](https://arxiv.org/abs/2603.16159) - Chen, D.
+
+- Surveys how major publishers regulate AI-generated figures and proposes disclosure, human-review and record-keeping guidelines for authors, calling on publishers to invest in detection during peer review.
+
+**2026** - [Medical students are using a popular research tool to pump out misleading studies](https://www.science.org/content/article/medical-students-are-using-popular-research-tool-pump-out-misleading-studies) - Science
+
+- Reports a surge of low-quality observational studies mass-produced from a federated electronic health record platform, where easy analyses fuel quick publications from inexperienced authors.
+
+**2026** - [Citation cartels use fake author names to target chemistry journals](https://cen.acs.org/research-integrity/Citation-cartels-use-fake-author/104/web/2026/02) - Chemical & Engineering News
+
+- Reports on citation cartels creating fictitious author identities in order to inflate citation counts in chemistry journals.
 
 **2025** - [The entities enabling scientific fraud at scale are large, resilient, and growing rapidly](https://www.pnas.org/doi/10.1073/pnas.2420092122) - Richardson, R.A.K. et al. - [Video](https://www.youtube.com/watch?v=YdVwUv1bfWE)
 
@@ -121,6 +194,38 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
 ### Image Integrity Methods
 
 
+**2026** - [Rescind: Countering Image Misconduct in Biomedical Publications with Vision-Language and State-Space Modeling](https://arxiv.org/abs/2601.08040) - Nandi, S., and Natarajan, P.
+
+- Introduces a ~600K-image benchmark of synthetic biomedical forgeries spanning classical, generative and VLM-guided manipulations, together with a state-space detector for localising duplication, splicing and region removal.
+
+**2026** - [BioTamperNet: Affinity-Guided State-Space Model Detecting Tampered Biomedical Images](https://arxiv.org/abs/2602.01435) - Nandi, S., and Natarajan, P.
+
+- Uses affinity-guided attention derived from state-space models to localise both a duplicated region and its source counterpart, arguing that detectors trained on natural images transfer poorly to biomedical data.
+
+**2026** - [THEMIS: Towards Holistic Evaluation of MLLMs for Scientific Paper Fraud Forensics](https://arxiv.org/abs/2603.25089) - Ma, T.-Y. et al.
+
+- A multi-task benchmark of 4,054 QA pairs built from 152 real retracted-paper cases plus synthetic manipulations, evaluating multimodal LLMs across five fraud types and sixteen manipulation operations.
+
+**2026** - [SciFigDetect: A Benchmark for AI-Generated Scientific Figure Detection](https://arxiv.org/abs/2604.08211) - Hu, Y. et al.
+
+- Pairs 72,965 real and 150,807 synthetic scientific figures with paper context and generation prompts, evaluating detectors under zero-shot transfer, cross-generator generalisation and degradation robustness.
+
+**2026** - [Dynamically Perceived Forgery Conditional Diffusion Model for Scientific Image Tampering Localization](https://doi.org/10.1109/TCSVT.2026.3653499) - Xu, J. et al.
+
+- Formulates tampering-mask prediction for scientific images as a conditional denoising process steered by a forgery condition and an enhanced edge condition, reporting strong cross-dataset robustness.
+
+**2026** - [VrySure: A Multi-Task AI Scientific Fraud Detection Platform for Identifying Manipulated and AI-Generated Biomedical Research Images](https://doi.org/10.64898/2026.06.10.731492) - Sun, J. et al.
+
+- An integrated screening platform combining cross-image reuse detection, within-image copy-move detection, blot and gel splicing detection, and AI-generated image detection, benchmarked against commercial tools.
+
+**2026** - [Spectral Forensics of Diffusion Attention Graphs for Copy-Move Forgery Detection](https://arxiv.org/abs/2604.17287) - Tabib, H.M.S., Tias, T.A., and Tahmid, N.
+
+- A training-free copy-move detector reading the spectral properties of self-attention affinity graphs from a pretrained diffusion model, benchmarked primarily on the Recod.ai/LUC scientific image forgery set.
+
+**2026** - [BioForensNet: A Precision-First Framework for Pixel-Level Copy-Move Forgery Detection in Scientific Images](https://doi.org/10.1109/ICDCA69396.2026.11620297) - Maurya, V., Srivastava, G., and Kumari, L.
+
+- Combines Vision Transformer representations with a structure-aware false-positive elimination stage, prioritising precision over recall to reduce false accusations in biomedical figure screening.
+
 **2025** - [MultiFakeVerse: A Large-Scale Benchmark for Synthetic Image Detection in the Era of Vision-Language Models](https://arxiv.org/abs/2506.00868) - Gupta, P. et al.
 - A large-scale deepfake dataset containing over 800,000 images generated by Vision-Language Models (VLMs) to benchmark detection of semantic image manipulations.
 
@@ -195,6 +300,8 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
 ### Public Image Integrity Datasets
 
 
+- [Recod.ai/LUC Scientific Image Forgery Detection Challenge Set](https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection)
+  * A challenge set of 5,128 biomedical research images (2,377 authentic, 2,751 copy-move forged) used as the primary benchmark in recent copy-move forensics work.
 - [Recod.ai Scientific Image Integrity Dataset (RSIID)](https://zenodo.org/records/15095089)
   * A benchmark dataset designed for evaluating forgery detection methods in scientific images.
 - [Scientific Papers (SILA) Dataset](https://www.nature.com/articles/s41598-022-21535-3)  
@@ -208,6 +315,62 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
 ## Text Integrity
 
 ### Text Integrity Methods
+
+**2026** - [Most biomedical publications show signs of LLM-assisted writing](https://arxiv.org/abs/2608.10715) - Holzwarth, L., González-Márquez, R., and Kobak, D.
+
+- Extends the excess-vocabulary method to paragraph level, finding that by the end of 2025, 89% of open-access biomedical papers show an excess of LLM-associated vocabulary, with Discussion sections far ahead of Methods.
+
+**2026** - [Phantom References: Hallucinated Citations That Survive Peer Review at Top-Tier Conferences](https://arxiv.org/abs/2607.00738) - Russinovich, M., Siva Kumar, R.S., and Salem, A.
+
+- Introduces RefChecker, an open-source pipeline that cross-checks every bibliographic entry against multiple scholarly databases; roughly 1 in 20 NeurIPS and USENIX Security 2025 papers carries at least two likely hallucinated references.
+
+**2026** - [Fine-Grained Detection of AI-Generated Writing in the Biomedical Literature](https://doi.org/10.64898/2026.01.01.697311) - She, R.
+
+- Passage-level detection across the biomedical literature finds near-zero AI text through 2024 and 12.4% of 2025 papers containing at least one localised AI-written passage, with a strong geographic and journal-tier skew.
+
+**2026** - [Sem-Detect: Semantic Level Detection of AI Generated Peer-Reviews](https://arxiv.org/abs/2605.21713) - Duarte, A.V., Tufts, B., Oke, A., et al.
+
+- Detects AI-written reviews by comparing claim-level semantics rather than surface style, separating fully human, LLM-refined and fully AI reviews across more than 20,000 ICLR and NeurIPS reviews.
+
+**2026** - [Detecting AI-Generated Content in Academic Peer Reviews](https://arxiv.org/abs/2602.00319) - Shen, S., and Wang, K.
+
+- Applies an AI-text detector to review reports over time, finding that by 2025 roughly one fifth of ICLR reviews and one eighth of Nature Communications reviews are flagged as AI-generated.
+
+**2026** - [Detecting Hallucinated and Suspicious Citations: What Current Tools Can and Cannot Do](https://arxiv.org/abs/2607.22693) - Badalova, F., and Mayr, P.
+
+- Reviews and hands-on evaluates the current crop of fabricated-citation detectors, finding them useful as early warnings but limited by reference-extraction errors and patchy database coverage.
+
+**2026** - [Why AI Detection Fails for Academic Integrity](https://arxiv.org/abs/2608.11256) - Karr Jr, J.A., Khvatskii, G., Hua, T., and Chawla, N.V.
+
+- Commercial detectors flag minor human edits to published abstracts at 64–80% while flagging unmodified recent human text at 9–15%, concluding that detector scores cannot stand alone as evidence of misconduct.
+
+**2026** - [Have LLM-associated terms increased in article full texts in all fields?](https://arxiv.org/abs/2604.07565) - Thelwall, M., and Kousha, K.
+
+- Tracks 80 LLM-associated terms across ~1.25 million full texts from 2021 to 2025, finding prevalence rises through 2024 and then diverges by field, with social sciences and engineering ahead of the life sciences.
+
+**2026** - [Trust-Aware Citation Cartel Ranking in Scholarly Knowledge Graphs](https://arxiv.org/abs/2607.06528) - Gupta, P., Udandarao, V., and Bandi, S.S.S.
+
+- Combines graph topology with LLM-labelled citation-intent analysis over 4.87 million citations, surfacing a top-ranked community of 1,079 papers with 254 times the expected internal citation density.
+
+**2026** - [Designing a Computational Framework for Identifying Suspicious Citation Groups in Heterogeneous Academic Networks: A Graph Learning Approach](https://doi.org/10.1007/s10796-026-10770-y) - Liu, J., Cheng, X., Wei, S., and Wang, G.
+
+- Argues that citation-cartel detection over-relies on local signals and proposes a graph-learning framework fusing local and global structure across heterogeneous journal and paper networks.
+
+**2026** - [From concept to measurement: operationalizing and normalizing Integrity Risk Indicators by SCImago (IRIS)](https://doi.org/10.1186/s41073-026-00233-y) - Sánchez-Jiménez, R., Guerrero-Bote, V.P., Halevi, G., et al.
+
+- Operationalises integrity risk indicators from bibliographic metadata — authorship and affiliation patterns, citation dynamics and venue credibility — normalised for cross-institution comparison.
+
+**2026** - [AI text detection in dentistry: a comparative analysis across generative models](https://doi.org/10.1186/s41073-026-00228-9) - Villa, J., Garcovich, D., Lombardo, L., et al.
+
+- Benchmarks six commercial AI detectors on 120 full-length manuscripts from three generative models plus human authors, one of few head-to-head evaluations on full papers rather than student essays.
+
+**2026** - [Hallucination Detector: A hybrid LLM and Semantic Scholar tool calling for detecting hallucination in scientific literature](https://arxiv.org/abs/2607.09774) - Neralla, H., Lee, J., Romero, A.H., and Choudhary, K.
+
+- An open-source tool combining LLM-based bibliographic field extraction with Semantic Scholar retrieval, scoring metadata agreement to assign confidence bands from trustworthy to likely fabricated.
+
+**2026** - [LLM-Generated or Human-Written? Comparing Review and Non-Review Papers on ArXiv](https://arxiv.org/abs/2601.17036) - Elazar, Y., and Antoniak, M.
+
+- Tests the premise behind restricting unpublished review papers on a preprint server, finding AI-generated content is proportionally more common in reviews but far more numerous in absolute terms among non-reviews.
 
 **2026** - [Machine learning based screening of potential paper mill publications in cancer research: methodological and cross sectional study](https://doi.org/10.1136/bmj-2025-087581) - Scancar, B., Byrne, J., Causeur, D., and Barnett, A
 
@@ -232,6 +395,14 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
 
 ### Public Text Integrity Datasets
 
+- [CiteAudit](https://arxiv.org/abs/2602.23452)
+  * A human-validated benchmark of real versus fabricated and mis-attributed scientific references, with a four-stage verification pipeline; code and data released.
+- [LLM-Generated Citation Integrity Dataset](https://doi.org/10.3390/data11050122)
+  * 74,196 BibTeX references generated by nine language models, alongside a screen of 127,063 citations from 3,541 published papers.
+- [FabTab](https://arxiv.org/abs/2603.19712)
+  * A benchmark of 1,173 AI-generated and 1,215 human-authored empirical papers for detecting fabricated result tables via within-table likelihood mismatch.
+- [Is Your Paper Being Reviewed by an LLM?](https://arxiv.org/abs/2502.19614)
+  * A benchmark pairing genuine ICLR and NeurIPS reviews with LLM-generated reviews of the same papers, used to evaluate AI-text detectors on review text.
 - [Problematic Paper Screener (PPS)](https://www.irit.fr/~Guillaume.Cabanac/problematic-paper-screener)  
   * A platform and dataset leveraging human assessment and automatic detection to flag articles containing "tortured phrases" and other anomalies.
 
@@ -239,26 +410,96 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
 
 ### Gene Integrity Methods
 
+**2026** - [ICLAC Has Released Version 14 of Its Misidentified Cell Line Register: Updating the Global Watchlist of Misidentified Cell Lines](https://doi.org/10.3390/cells15070576) - Weiskirchen, R.
+
+- Announces version 14 of the ICLAC register — 608 misidentified lines, 560 with no known authentic stock — and recommends routine register checks and STR profiling enforced by journals, funders and institutions.
+
+**2026** - [Cell line authentication: a commercial service provider perspective](https://doi.org/10.3389/fcell.2026.1843943) - Ralston, E., and Haskayne, C.
+
+- Reports real screening rates from an STR authentication service — around 4.7% misidentified and 1.8% contaminated in 2024 — and argues that proprietary, access-restricted STR databases impede contamination investigation.
+
+**2026** - [Genetic Insights into the Economic Toll of Cell Line Misidentification: A Comprehensive Review](https://doi.org/10.3390/medsci14010025) - Weiskirchen, R.
+
+- Reviews authentication methods from STR profiling to genome sequencing, estimating that roughly one in five lines in use is compromised at a cost of some $28 billion a year in US irreproducibility.
+
+**2026** - [Addressing antibody validation failures: a multi-stakeholder Delphi consensus study on actionable solutions](https://doi.org/10.64898/2026.03.04.709541) - Blades, K., Biddle, M., Froud, R., et al.
+
+- A 32-expert Delphi study reaching consensus on 15 actionable items across institutional training, funder requirements, publisher standards and manufacturer accountability for reagent validation.
+
 **2019** - [Semi-automated fact-checking of nucleotide sequence reagents in biomedical research publications: The Seek & Blastn tool](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0213266) - Labbé C., Grima, N., Gautier T., Favier B., Byrne J.A.
 
 - [Tool Link](https://scigendetection.imag.fr/TPD52/Vb/)
 
 ### Gene Integrity Datasets
 
-(Add datasets here)
+- [ICLAC Register of Misidentified Cell Lines](https://iclac.org/databases/cross-contaminations/)
+  * The canonical watchlist of cross-contaminated and misidentified cell lines; version 14 (February 2026) lists 608 lines, with HeLa implicated in 145 entries.
+- [Cellosaurus](https://www.cellosaurus.org/)
+  * A cell line knowledge resource covering more than 168,000 lines, with a dedicated filter for problematic entries and a queryable API.
+- [CLASTR](https://www.cellosaurus.org/str-search/)
+  * The Cellosaurus STR similarity search tool, which matches submitted STR profiles against human, mouse and dog reference profiles to turn a raw readout into a misidentification finding.
+- [DSMZ Online STR Analysis](https://www.dsmz.de/services/human-and-animal-cell-lines/online-str-analysis)
+  * A bank-independent STR reference database of over 2,500 human cell line profiles, merging the ATCC, JCRB and RIKEN datasets; login required.
+- [HGNC (genenames.org)](https://www.genenames.org/)
+  * The authoritative set of over 44,400 approved human gene symbols, with a Multi-Symbol Checker that validates submitted terms against approved, previous, withdrawn and alias symbols.
 
 ## Statistics and Science of Science
 
 Papers discussing attributes of science, evolution, publication trends, and funding.
 
+**2026** - [Tracking the retracted paper mill articles: a bibliometric study](https://doi.org/10.1007/s11192-026-05751-6) - Cheng, M.W.T., Yang, X., and Allen, R.M.
+
+- Characterises 10,409 paper-mill-linked retractions through 2024, with a 2023 spike and a keyword drift from biomedical terms toward computational ones between 2011 and 2024.
+
+**2026** - [How Ten Publishers Retract Research](https://arxiv.org/abs/2602.19197) - Oppenlaender, J.
+
+- Compares 46,087 retractions across ten publishers, finding normalised rates spanning two orders of magnitude and identifying one publisher whose record is dominated by a single incident and a non-public archive.
+
+**2026** - [An analysis of the relationship between access models and retractions with peer review issues (2014–2024)](https://doi.org/10.1007/s11192-026-05668-0) - Mañana-Rodríguez, J., Granadino-Goenechea, B., and Bautista-Puig, N.
+
+- Matches 31,910 retracted publications against access model, finding gold open access has the highest retraction rate but only from 2020 onward, with rates comparable across models before then.
+
+**2026** - [Does retraction interrupt knowledge-claims diffusion? Evidence from retracted papers in Nature and Science](https://doi.org/10.1007/s11192-026-05741-8) - Wang, J.J., Wei, S., Yuan, X., and Ye, F.Y.
+
+- Mean annual citations fall by 76% and 82% after retraction but never reach zero, and the citation network survives in a weaker and more unevenly organised form.
+
+**2026** - [The Case of the Mysterious Citations](https://arxiv.org/abs/2602.05867) - Bienz, A., Pearson, C., and Garcia de Gonzalo, S.
+
+- Compares citation accuracy in the 2021 and 2025 proceedings of four computing conferences: no 2021 paper contained an unverifiable citation, while every 2025 proceeding did, affecting 2–6% of papers.
+
+**2026** - [Incidence and evolution of retracted publications according to the sources used: A meta-analysis comparison with RetractBASE](https://doi.org/10.1177/01655515251398723) - Sanchez, C., Ortega, J.L., Delgado-Quiros, L., et al.
+
+- Shows that multi-source harvesting materially improves retraction detection, implying that true retraction incidence is higher than single-source estimates suggest.
+
+**2026** - ['Wasted' research and lost citations: A scientometric assessment of retracted documents in Scopus between 2001 and 2024](https://doi.org/10.1177/01655515251362383) - Lendvai, G.F., and Sasvari, P.
+
+- Across 35,514 retracted Scopus publications, citation impact is extremely unequal and author-level retraction frequency correlates only weakly with citation influence, arguing for retraction-aware bibliometric evaluation.
+
 **2023** - [“Publication Output by Region, Country, or Economy and by Scientific Field"](https://ncses.nsf.gov/pubs/nsb202333/publication-output-by-region-country-or-economy-and-by-scientific-field) - Schneider, B. et al.
 
 - NFS report regarding the output trends over time in publication output across regions, countries, or economies and by fields of science.
+
+### Public Retraction Datasets
+
+- [Retraction Watch Database](https://gitlab.com/crossref/retraction-watch-data)
+  * The open record of retractions, corrections, expressions of concern and reinstatements, distributed free by Crossref as a 20-field CSV and updated daily.
 
 ## Commercial Tools
 
 > **Disclaimer:** We have not tested these tools and cannot verify their effectiveness or accuracy. Inclusion in this list does not constitute an endorsement.
 
+- [ReviewerZero AI](https://www.reviewerzero.ai/)
+  - Advertises automated checks across figure integrity, statistical revalidation, reference validation, AI-text detection and author identity verification in a single manuscript screen.
+- [Argos (Scitility)](https://www.scitility.com/argos)
+  - A research-integrity intelligence platform tracking retractions and their downstream citation effects, with alerts, an API and institutional dashboards.
+- [SciScore](https://sciscore.com/)
+  - Automated review of a manuscript's methods section for rigour and transparency, including detection of research resources and whether they are identified by RRID, vendor and catalogue number.
+- [Morressier Integrity Manager](https://www.morressier.com/company/morressiers-guide-to-research-integrity)
+  - Publisher-facing screening that runs inside a submission workflow, covering compliance pre-flight, author identity verification, plagiarism and tortured phrases, citation manipulation and AI-generated text.
+- [Paperpal Reference Checker](https://paperpal.com/tools/reference-checker)
+  - Scans a reference list before submission for retracted references, hallucinated citations, invalid DOIs, and mismatches between in-text citations and the reference list.
+- [RefIntegrity](https://refintegrity.com/)
+  - Free and open source. Checks a reference list for retracted citations via OpenAlex and the Retraction Watch database, and is also published as an MCP server.
 - [ImageTwin](https://imagetwin.ai/)
   - AI-based software for detecting image duplication and manipulation in scientific publications. Indexes over 100 million images.
 - [Proofig](https://www.proofig.com/)
