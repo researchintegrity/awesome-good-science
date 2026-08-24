@@ -1,0 +1,1124 @@
+From 9edbfe3ce13e36e4d2465db9b98675d5e3460b17 Mon Sep 17 00:00:00 2001
+From: Phillipe Cardenuto <phillipe.cardenuto@gmail.com>
+Date: Mon, 24 Aug 2026 10:27:50 +0000
+Subject: [PATCH 1/2] docs: add 2026 literature on digital forensics for
+ scientific integrity
+
+Adds 68 entries across nine sections, covering January-August 2026:
+image forensics for biomedical figures, AI-generated text and
+fabricated-reference detection, cell line and reagent integrity,
+retraction bibliometrics, and integrity reports.
+
+Introduces a Public Retraction Datasets subsection under Statistics
+and Science of Science, with a matching table of contents entry.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01MPhkkbzKdrVtuJFyHQv51n
+---
+ README.md | 243 +++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 242 insertions(+), 1 deletion(-)
+
+diff --git a/README.md b/README.md
+index 4861c3b..9619375 100644
+--- a/README.md
++++ b/README.md
+@@ -13,6 +13,7 @@
+   - [Datasets](#text-integrity-datasets)
+ - [Gene Integrity](#gene-integrity)
+ - [Statistics and Science of Science](#statistics-and-science-of-science)
++  - [Datasets](#public-retraction-datasets)
+ - [Commercial Tools](#commercial-tools)
+ - [Organizations](#organizations)
+ - [Conferences and Journals](#conferences-and-journals)
+@@ -24,6 +25,78 @@ Papers and reports denouncing cases of possible scientific misconduct or related
+ 
+ ### Integrity Reports
+ 
++**2026** - [Follow-up investigation of ethics approvals and regulatory compliance in publications from the IHU-Mi](https://doi.org/10.1186/s41073-026-00234-x) - Frank, F., Bik, E.M., Meyerowitz-Katz, G., et al.
++
++- Audited 2,674 publications from the IHU-Méditerranée Infection, finding ethical concerns in 853 articles and mismatches between stated approvals and the research actually described in 81.3% of the 374 cases where approval documents were obtained.
++
++**2026** - [Zombie trials are often monocentric and cluster within fabricated evidence "factories": a cohort study of 236 retracted randomized controlled trials with confirmed data fabrication](https://doi.org/10.64898/2026.07.23.26357975) - Jajieh, T., Chapelle, C., Lemarchand, C., et al.
++
++- Of 236 RCTs retracted for confirmed data fabrication, 83.5% involved repeat offenders and a single author accounted for 104 trials; repeat-offender trials took 13.6 years to retract versus 2.75 years for one-off cases.
++
++**2026** - [Fabricated citations: an audit across 2·5 million biomedical papers](https://doi.org/10.1016/S0140-6736(26)00603-3) - Topaz, M., Roguin, N., Gupta, P., et al.
++
++- An AI-assisted audit of ~2.5 million open-access papers and ~97 million references found nearly 3,000 papers citing publications that cannot be matched to any known work, with fabricated-citation rates rising roughly 12-fold in two years.
++
++**2026** - [Research integrity within systematic reviews: investigating the prevalence of studies by authors with multiple retraction histories in Cochrane reviews](https://doi.org/10.1186/s41073-026-00205-2) - Zaw, T.M.M., Heathers, J., and Meyerowitz-Katz, G.
++
++- Across 9,323 Cochrane reviews, 81 cite work by authors with 24 or more retractions, and only 6 of the 32 reviews that meta-analysed such studies ran a sensitivity analysis excluding them.
++
++**2026** - [Publishers' responses to integrity concerns – does the type of notice influence subsequent citations? A cohort study](https://doi.org/10.64898/2026.02.25.26346683) - Studd, H., Avenell, A., Grey, A., and Bolland, M.J.
++
++- Citation decline after an editorial notice did not differ by notice type, nor from the natural decline of matched controls; notices arrive on average five years after publication, by which point the papers are already embedded.
++
++**2026** - [Editorial expressions of concern are infrequent even for researchers with multiple retracted publications – An observational study](https://doi.org/10.1080/08989621.2026.2671154) - Grey, A., Avenell, A., and Bolland, M.
++
++- Journals rarely issue expressions of concern about the remaining literature of authors who already have multiple retractions, leaving the unretracted work of serial offenders unflagged.
++
++**2026** - [Suspected distortion of citations in high-impact cancer journals](https://doi.org/10.64898/2026.05.25.727627) - Scancar, B., Byrne, J.A., Causeur, D., and Barnett, A. - [News](https://www.nature.com/articles/d41586-026-01908-8)
++
++- Molecular cancer papers carrying the textual signature of retracted paper-mill articles receive 50–100% more citations than comparable articles while attracting fewer readers, evidence of deliberate citation inflation feeding journal impact factors.
++
++**2026** - [When science corrects itself but patents do not: Retractions, boundary infrastructure, and downstream invention](https://doi.org/10.2139/ssrn.6904220) - Kim, H.
++
++- Screened 13 million US patents and found 401 citing retracted papers, with 71.6% of those exposures falling in windows where a correction was still actionable before filing or during examination.
++
++**2026** - [The 'shades of grey' in research integrity—Researchers admit to questionable research practices that they do not perceive to be serious](https://doi.org/10.1371/journal.pone.0339056) - Entradas, M., Feng, Y., and Carneiro e Sousa, I.
++
++- In a survey of 1,573 researchers, about 92% admitted to at least one questionable research practice, with engagement predicted most strongly by perceiving the practice as not serious.
++
++**2026** - ['A waste of time for all of us': caught in the crossfire of the peer-review wars](https://www.nature.com/immersive/d41586-026-01360-8/index.html) - Zimmer, K.
++
++- A long-form investigation into "review mills" producing duplicated peer-review reports that demand coercive citations, spanning thousands of manuscripts across MDPI, Springer Nature and Taylor & Francis.
++
++**2026** - [Hallucinated citations are polluting the scientific literature. What can be done?](https://www.nature.com/articles/d41586-026-00969-z) - Naddaf, M., and Quill, E.
++
++- A news feature surveying the fabricated-reference problem and the detection landscape responding to it, reporting that tens of thousands of 2025 publications may carry invalid citations.
++
++**2026** - [Growing use of guest editors has turned some journals into a 'playground of bad science'](https://www.statnews.com/2026/04/24/science-journal-retractions-highlight-guest-editor-special-edition-problem/) - Oza, A.
++
++- Reports on guest-edited special issues as the main vector for paper-mill output, hung on the near-total retraction of one guest-edited special issue for compromised peer review.
++
++**2026** - [Controversial editorial practices boost plastic surgeon's publishing empire](https://retractionwatch.com/2026/03/12/riaz-agha-international-journal-surgery-research-registry-wolters-kluwer/) - Joelving, F.
++
++- An investigation showing that self-citation of reporting guidelines supplied 3.4 points of one journal's 15.3 impact factor; Clarivate placed six of the group's journals on hold in Web of Science three months later.
++
++**2026** - [Office of Research Integrity Annual Report 2025](https://ori.hhs.gov/sites/default/files/2026-08/2025%20ORI%20Annual%20Report_final.pdf) - Office of Research Integrity (ORI), U.S. Department of Health and Human Services
++
++- ORI received 446 misconduct allegations in CY2025 and closed 177 cases, returning 43 findings of research misconduct, 2 debarments and 3 supervision plans.
++
++**2026** - [Safeguarding Scholarly Communication: Publisher Practices to Uphold Research Integrity](https://stm-assoc.org/new-report-documents-publisher-investment-in-research-integrity-infrastructure/) - Storan, D., and Chiarelli, A., for the STM Research Integrity Committee
++
++- An industry stocktake reporting research-integrity teams of 100+ staff at some publishers and over 2 million submissions screened in 8–9 months, while concluding that publisher action alone is insufficient.
++
++**2026** - [AI-Generated Figures in Academic Publishing: Policies, Tools, and Practical Guidelines](https://arxiv.org/abs/2603.16159) - Chen, D.
++
++- Surveys how major publishers regulate AI-generated figures and proposes disclosure, human-review and record-keeping guidelines for authors, calling on publishers to invest in detection during peer review.
++
++**2026** - [Medical students are using a popular research tool to pump out misleading studies](https://www.science.org/content/article/medical-students-are-using-popular-research-tool-pump-out-misleading-studies) - Science
++
++- Reports a surge of low-quality observational studies mass-produced from a federated electronic health record platform, where easy analyses fuel quick publications from inexperienced authors.
++
++**2026** - [Citation cartels use fake author names to target chemistry journals](https://cen.acs.org/research-integrity/Citation-cartels-use-fake-author/104/web/2026/02) - Chemical & Engineering News
++
++- Reports on citation cartels creating fictitious author identities in order to inflate citation counts in chemistry journals.
++
+ **2025** - [The entities enabling scientific fraud at scale are large, resilient, and growing rapidly](https://www.pnas.org/doi/10.1073/pnas.2420092122) - Richardson, R.A.K. et al. - [Video](https://www.youtube.com/watch?v=YdVwUv1bfWE)
+ 
+ - Discusses the industrial scale of "paper mills," revealing that they are growing rapidly (doubling every ~1.5 years) and are resilient to current interventions like retractions.  
+@@ -121,6 +194,38 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
+ ### Image Integrity Methods
+ 
+ 
++**2026** - [Rescind: Countering Image Misconduct in Biomedical Publications with Vision-Language and State-Space Modeling](https://arxiv.org/abs/2601.08040) - Nandi, S., and Natarajan, P.
++
++- Introduces a ~600K-image benchmark of synthetic biomedical forgeries spanning classical, generative and VLM-guided manipulations, together with a state-space detector for localising duplication, splicing and region removal.
++
++**2026** - [BioTamperNet: Affinity-Guided State-Space Model Detecting Tampered Biomedical Images](https://arxiv.org/abs/2602.01435) - Nandi, S., and Natarajan, P.
++
++- Uses affinity-guided attention derived from state-space models to localise both a duplicated region and its source counterpart, arguing that detectors trained on natural images transfer poorly to biomedical data.
++
++**2026** - [THEMIS: Towards Holistic Evaluation of MLLMs for Scientific Paper Fraud Forensics](https://arxiv.org/abs/2603.25089) - Ma, T.-Y. et al.
++
++- A multi-task benchmark of 4,054 QA pairs built from 152 real retracted-paper cases plus synthetic manipulations, evaluating multimodal LLMs across five fraud types and sixteen manipulation operations.
++
++**2026** - [SciFigDetect: A Benchmark for AI-Generated Scientific Figure Detection](https://arxiv.org/abs/2604.08211) - Hu, Y. et al.
++
++- Pairs 72,965 real and 150,807 synthetic scientific figures with paper context and generation prompts, evaluating detectors under zero-shot transfer, cross-generator generalisation and degradation robustness.
++
++**2026** - [Dynamically Perceived Forgery Conditional Diffusion Model for Scientific Image Tampering Localization](https://doi.org/10.1109/TCSVT.2026.3653499) - Xu, J. et al.
++
++- Formulates tampering-mask prediction for scientific images as a conditional denoising process steered by a forgery condition and an enhanced edge condition, reporting strong cross-dataset robustness.
++
++**2026** - [VrySure: A Multi-Task AI Scientific Fraud Detection Platform for Identifying Manipulated and AI-Generated Biomedical Research Images](https://doi.org/10.64898/2026.06.10.731492) - Sun, J. et al.
++
++- An integrated screening platform combining cross-image reuse detection, within-image copy-move detection, blot and gel splicing detection, and AI-generated image detection, benchmarked against commercial tools.
++
++**2026** - [Spectral Forensics of Diffusion Attention Graphs for Copy-Move Forgery Detection](https://arxiv.org/abs/2604.17287) - Tabib, H.M.S., Tias, T.A., and Tahmid, N.
++
++- A training-free copy-move detector reading the spectral properties of self-attention affinity graphs from a pretrained diffusion model, benchmarked primarily on the Recod.ai/LUC scientific image forgery set.
++
++**2026** - [BioForensNet: A Precision-First Framework for Pixel-Level Copy-Move Forgery Detection in Scientific Images](https://doi.org/10.1109/ICDCA69396.2026.11620297) - Maurya, V., Srivastava, G., and Kumari, L.
++
++- Combines Vision Transformer representations with a structure-aware false-positive elimination stage, prioritising precision over recall to reduce false accusations in biomedical figure screening.
++
+ **2025** - [MultiFakeVerse: A Large-Scale Benchmark for Synthetic Image Detection in the Era of Vision-Language Models](https://arxiv.org/abs/2506.00868) - Gupta, P. et al.
+ - A large-scale deepfake dataset containing over 800,000 images generated by Vision-Language Models (VLMs) to benchmark detection of semantic image manipulations.
+ 
+@@ -195,6 +300,8 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
+ ### Public Image Integrity Datasets
+ 
+ 
++- [Recod.ai/LUC Scientific Image Forgery Detection Challenge Set](https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection)
++  * A challenge set of 5,128 biomedical research images (2,377 authentic, 2,751 copy-move forged) used as the primary benchmark in recent copy-move forensics work.
+ - [Recod.ai Scientific Image Integrity Dataset (RSIID)](https://zenodo.org/records/15095089)
+   * A benchmark dataset designed for evaluating forgery detection methods in scientific images.
+ - [Scientific Papers (SILA) Dataset](https://www.nature.com/articles/s41598-022-21535-3)  
+@@ -209,6 +316,62 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
+ 
+ ### Text Integrity Methods
+ 
++**2026** - [Most biomedical publications show signs of LLM-assisted writing](https://arxiv.org/abs/2608.10715) - Holzwarth, L., González-Márquez, R., and Kobak, D.
++
++- Extends the excess-vocabulary method to paragraph level, finding that by the end of 2025, 89% of open-access biomedical papers show an excess of LLM-associated vocabulary, with Discussion sections far ahead of Methods.
++
++**2026** - [Phantom References: Hallucinated Citations That Survive Peer Review at Top-Tier Conferences](https://arxiv.org/abs/2607.00738) - Russinovich, M., Siva Kumar, R.S., and Salem, A.
++
++- Introduces RefChecker, an open-source pipeline that cross-checks every bibliographic entry against multiple scholarly databases; roughly 1 in 20 NeurIPS and USENIX Security 2025 papers carries at least two likely hallucinated references.
++
++**2026** - [Fine-Grained Detection of AI-Generated Writing in the Biomedical Literature](https://doi.org/10.64898/2026.01.01.697311) - She, R.
++
++- Passage-level detection across the biomedical literature finds near-zero AI text through 2024 and 12.4% of 2025 papers containing at least one localised AI-written passage, with a strong geographic and journal-tier skew.
++
++**2026** - [Sem-Detect: Semantic Level Detection of AI Generated Peer-Reviews](https://arxiv.org/abs/2605.21713) - Duarte, A.V., Tufts, B., Oke, A., et al.
++
++- Detects AI-written reviews by comparing claim-level semantics rather than surface style, separating fully human, LLM-refined and fully AI reviews across more than 20,000 ICLR and NeurIPS reviews.
++
++**2026** - [Detecting AI-Generated Content in Academic Peer Reviews](https://arxiv.org/abs/2602.00319) - Shen, S., and Wang, K.
++
++- Applies an AI-text detector to review reports over time, finding that by 2025 roughly one fifth of ICLR reviews and one eighth of Nature Communications reviews are flagged as AI-generated.
++
++**2026** - [Detecting Hallucinated and Suspicious Citations: What Current Tools Can and Cannot Do](https://arxiv.org/abs/2607.22693) - Badalova, F., and Mayr, P.
++
++- Reviews and hands-on evaluates the current crop of fabricated-citation detectors, finding them useful as early warnings but limited by reference-extraction errors and patchy database coverage.
++
++**2026** - [Why AI Detection Fails for Academic Integrity](https://arxiv.org/abs/2608.11256) - Karr Jr, J.A., Khvatskii, G., Hua, T., and Chawla, N.V.
++
++- Commercial detectors flag minor human edits to published abstracts at 64–80% while flagging unmodified recent human text at 9–15%, concluding that detector scores cannot stand alone as evidence of misconduct.
++
++**2026** - [Have LLM-associated terms increased in article full texts in all fields?](https://arxiv.org/abs/2604.07565) - Thelwall, M., and Kousha, K.
++
++- Tracks 80 LLM-associated terms across ~1.25 million full texts from 2021 to 2025, finding prevalence rises through 2024 and then diverges by field, with social sciences and engineering ahead of the life sciences.
++
++**2026** - [Trust-Aware Citation Cartel Ranking in Scholarly Knowledge Graphs](https://arxiv.org/abs/2607.06528) - Gupta, P., Udandarao, V., and Bandi, S.S.S.
++
++- Combines graph topology with LLM-labelled citation-intent analysis over 4.87 million citations, surfacing a top-ranked community of 1,079 papers with 254 times the expected internal citation density.
++
++**2026** - [Designing a Computational Framework for Identifying Suspicious Citation Groups in Heterogeneous Academic Networks: A Graph Learning Approach](https://doi.org/10.1007/s10796-026-10770-y) - Liu, J., Cheng, X., Wei, S., and Wang, G.
++
++- Argues that citation-cartel detection over-relies on local signals and proposes a graph-learning framework fusing local and global structure across heterogeneous journal and paper networks.
++
++**2026** - [From concept to measurement: operationalizing and normalizing Integrity Risk Indicators by SCImago (IRIS)](https://doi.org/10.1186/s41073-026-00233-y) - Sánchez-Jiménez, R., Guerrero-Bote, V.P., Halevi, G., et al.
++
++- Operationalises integrity risk indicators from bibliographic metadata — authorship and affiliation patterns, citation dynamics and venue credibility — normalised for cross-institution comparison.
++
++**2026** - [AI text detection in dentistry: a comparative analysis across generative models](https://doi.org/10.1186/s41073-026-00228-9) - Villa, J., Garcovich, D., Lombardo, L., et al.
++
++- Benchmarks six commercial AI detectors on 120 full-length manuscripts from three generative models plus human authors, one of few head-to-head evaluations on full papers rather than student essays.
++
++**2026** - [Hallucination Detector: A hybrid LLM and Semantic Scholar tool calling for detecting hallucination in scientific literature](https://arxiv.org/abs/2607.09774) - Neralla, H., Lee, J., Romero, A.H., and Choudhary, K.
++
++- An open-source tool combining LLM-based bibliographic field extraction with Semantic Scholar retrieval, scoring metadata agreement to assign confidence bands from trustworthy to likely fabricated.
++
++**2026** - [LLM-Generated or Human-Written? Comparing Review and Non-Review Papers on ArXiv](https://arxiv.org/abs/2601.17036) - Elazar, Y., and Antoniak, M.
++
++- Tests the premise behind restricting unpublished review papers on a preprint server, finding AI-generated content is proportionally more common in reviews but far more numerous in absolute terms among non-reviews.
++
+ **2026** - [Machine learning based screening of potential paper mill publications in cancer research: methodological and cross sectional study](https://doi.org/10.1136/bmj-2025-087581) - Scancar, B., Byrne, J., Causeur, D., and Barnett, A
+ 
+ - Proposed a BERT-based model to identify Paper Mill papers using their Titles and Abstracts..
+@@ -232,6 +395,14 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
+ 
+ ### Public Text Integrity Datasets
+ 
++- [CiteAudit](https://arxiv.org/abs/2602.23452)
++  * A human-validated benchmark of real versus fabricated and mis-attributed scientific references, with a four-stage verification pipeline; code and data released.
++- [LLM-Generated Citation Integrity Dataset](https://doi.org/10.3390/data11050122)
++  * 74,196 BibTeX references generated by nine language models, alongside a screen of 127,063 citations from 3,541 published papers.
++- [FabTab](https://arxiv.org/abs/2603.19712)
++  * A benchmark of 1,173 AI-generated and 1,215 human-authored empirical papers for detecting fabricated result tables via within-table likelihood mismatch.
++- [Is Your Paper Being Reviewed by an LLM?](https://arxiv.org/abs/2502.19614)
++  * A benchmark pairing genuine ICLR and NeurIPS reviews with LLM-generated reviews of the same papers, used to evaluate AI-text detectors on review text.
+ - [Problematic Paper Screener (PPS)](https://www.irit.fr/~Guillaume.Cabanac/problematic-paper-screener)  
+   * A platform and dataset leveraging human assessment and automatic detection to flag articles containing "tortured phrases" and other anomalies.
+ 
+@@ -239,26 +410,96 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
+ 
+ ### Gene Integrity Methods
+ 
++**2026** - [ICLAC Has Released Version 14 of Its Misidentified Cell Line Register: Updating the Global Watchlist of Misidentified Cell Lines](https://doi.org/10.3390/cells15070576) - Weiskirchen, R.
++
++- Announces version 14 of the ICLAC register — 608 misidentified lines, 560 with no known authentic stock — and recommends routine register checks and STR profiling enforced by journals, funders and institutions.
++
++**2026** - [Cell line authentication: a commercial service provider perspective](https://doi.org/10.3389/fcell.2026.1843943) - Ralston, E., and Haskayne, C.
++
++- Reports real screening rates from an STR authentication service — around 4.7% misidentified and 1.8% contaminated in 2024 — and argues that proprietary, access-restricted STR databases impede contamination investigation.
++
++**2026** - [Genetic Insights into the Economic Toll of Cell Line Misidentification: A Comprehensive Review](https://doi.org/10.3390/medsci14010025) - Weiskirchen, R.
++
++- Reviews authentication methods from STR profiling to genome sequencing, estimating that roughly one in five lines in use is compromised at a cost of some $28 billion a year in US irreproducibility.
++
++**2026** - [Addressing antibody validation failures: a multi-stakeholder Delphi consensus study on actionable solutions](https://doi.org/10.64898/2026.03.04.709541) - Blades, K., Biddle, M., Froud, R., et al.
++
++- A 32-expert Delphi study reaching consensus on 15 actionable items across institutional training, funder requirements, publisher standards and manufacturer accountability for reagent validation.
++
+ **2019** - [Semi-automated fact-checking of nucleotide sequence reagents in biomedical research publications: The Seek & Blastn tool](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0213266) - Labbé C., Grima, N., Gautier T., Favier B., Byrne J.A.
+ 
+ - [Tool Link](https://scigendetection.imag.fr/TPD52/Vb/)
+ 
+ ### Gene Integrity Datasets
+ 
+-(Add datasets here)
++- [ICLAC Register of Misidentified Cell Lines](https://iclac.org/databases/cross-contaminations/)
++  * The canonical watchlist of cross-contaminated and misidentified cell lines; version 14 (February 2026) lists 608 lines, with HeLa implicated in 145 entries.
++- [Cellosaurus](https://www.cellosaurus.org/)
++  * A cell line knowledge resource covering more than 168,000 lines, with a dedicated filter for problematic entries and a queryable API.
++- [CLASTR](https://www.cellosaurus.org/str-search/)
++  * The Cellosaurus STR similarity search tool, which matches submitted STR profiles against human, mouse and dog reference profiles to turn a raw readout into a misidentification finding.
++- [DSMZ Online STR Analysis](https://www.dsmz.de/services/human-and-animal-cell-lines/online-str-analysis)
++  * A bank-independent STR reference database of over 2,500 human cell line profiles, merging the ATCC, JCRB and RIKEN datasets; login required.
++- [HGNC (genenames.org)](https://www.genenames.org/)
++  * The authoritative set of over 44,400 approved human gene symbols, with a Multi-Symbol Checker that validates submitted terms against approved, previous, withdrawn and alias symbols.
+ 
+ ## Statistics and Science of Science
+ 
+ Papers discussing attributes of science, evolution, publication trends, and funding.
+ 
++**2026** - [Tracking the retracted paper mill articles: a bibliometric study](https://doi.org/10.1007/s11192-026-05751-6) - Cheng, M.W.T., Yang, X., and Allen, R.M.
++
++- Characterises 10,409 paper-mill-linked retractions through 2024, with a 2023 spike and a keyword drift from biomedical terms toward computational ones between 2011 and 2024.
++
++**2026** - [How Ten Publishers Retract Research](https://arxiv.org/abs/2602.19197) - Oppenlaender, J.
++
++- Compares 46,087 retractions across ten publishers, finding normalised rates spanning two orders of magnitude and identifying one publisher whose record is dominated by a single incident and a non-public archive.
++
++**2026** - [An analysis of the relationship between access models and retractions with peer review issues (2014–2024)](https://doi.org/10.1007/s11192-026-05668-0) - Mañana-Rodríguez, J., Granadino-Goenechea, B., and Bautista-Puig, N.
++
++- Matches 31,910 retracted publications against access model, finding gold open access has the highest retraction rate but only from 2020 onward, with rates comparable across models before then.
++
++**2026** - [Does retraction interrupt knowledge-claims diffusion? Evidence from retracted papers in Nature and Science](https://doi.org/10.1007/s11192-026-05741-8) - Wang, J.J., Wei, S., Yuan, X., and Ye, F.Y.
++
++- Mean annual citations fall by 76% and 82% after retraction but never reach zero, and the citation network survives in a weaker and more unevenly organised form.
++
++**2026** - [The Case of the Mysterious Citations](https://arxiv.org/abs/2602.05867) - Bienz, A., Pearson, C., and Garcia de Gonzalo, S.
++
++- Compares citation accuracy in the 2021 and 2025 proceedings of four computing conferences: no 2021 paper contained an unverifiable citation, while every 2025 proceeding did, affecting 2–6% of papers.
++
++**2026** - [Incidence and evolution of retracted publications according to the sources used: A meta-analysis comparison with RetractBASE](https://doi.org/10.1177/01655515251398723) - Sanchez, C., Ortega, J.L., Delgado-Quiros, L., et al.
++
++- Shows that multi-source harvesting materially improves retraction detection, implying that true retraction incidence is higher than single-source estimates suggest.
++
++**2026** - ['Wasted' research and lost citations: A scientometric assessment of retracted documents in Scopus between 2001 and 2024](https://doi.org/10.1177/01655515251362383) - Lendvai, G.F., and Sasvari, P.
++
++- Across 35,514 retracted Scopus publications, citation impact is extremely unequal and author-level retraction frequency correlates only weakly with citation influence, arguing for retraction-aware bibliometric evaluation.
++
+ **2023** - [“Publication Output by Region, Country, or Economy and by Scientific Field"](https://ncses.nsf.gov/pubs/nsb202333/publication-output-by-region-country-or-economy-and-by-scientific-field) - Schneider, B. et al.
+ 
+ - NFS report regarding the output trends over time in publication output across regions, countries, or economies and by fields of science.
+ 
++### Public Retraction Datasets
++
++- [Retraction Watch Database](https://gitlab.com/crossref/retraction-watch-data)
++  * The open record of retractions, corrections, expressions of concern and reinstatements, distributed free by Crossref as a 20-field CSV and updated daily.
++
+ ## Commercial Tools
+ 
+ > **Disclaimer:** We have not tested these tools and cannot verify their effectiveness or accuracy. Inclusion in this list does not constitute an endorsement.
+ 
++- [ReviewerZero AI](https://www.reviewerzero.ai/)
++  - Advertises automated checks across figure integrity, statistical revalidation, reference validation, AI-text detection and author identity verification in a single manuscript screen.
++- [Argos (Scitility)](https://www.scitility.com/argos)
++  - A research-integrity intelligence platform tracking retractions and their downstream citation effects, with alerts, an API and institutional dashboards.
++- [SciScore](https://sciscore.com/)
++  - Automated review of a manuscript's methods section for rigour and transparency, including detection of research resources and whether they are identified by RRID, vendor and catalogue number.
++- [Morressier Integrity Manager](https://www.morressier.com/company/morressiers-guide-to-research-integrity)
++  - Publisher-facing screening that runs inside a submission workflow, covering compliance pre-flight, author identity verification, plagiarism and tortured phrases, citation manipulation and AI-generated text.
++- [Paperpal Reference Checker](https://paperpal.com/tools/reference-checker)
++  - Scans a reference list before submission for retracted references, hallucinated citations, invalid DOIs, and mismatches between in-text citations and the reference list.
++- [RefIntegrity](https://refintegrity.com/)
++  - Free and open source. Checks a reference list for retracted citations via OpenAlex and the Retraction Watch database, and is also published as an MCP server.
+ - [ImageTwin](https://imagetwin.ai/)
+   - AI-based software for detecting image duplication and manipulation in scientific publications. Indexes over 100 million images.
+ - [Proofig](https://www.proofig.com/)
+-- 
+2.43.0
+
+
+From bbdbe61e6769a79b132070024dae40669f8429cb Mon Sep 17 00:00:00 2001
+From: Phillipe Cardenuto <phillipe.cardenuto@gmail.com>
+Date: Mon, 24 Aug 2026 10:27:50 +0000
+Subject: [PATCH 2/2] chore: remove the automated curation pipeline
+
+Removes the Gemini-based weekly curation workflow, its script,
+dependencies, and testing notes. No automation is running for now;
+the pipeline remains in git history if it is revisited.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01MPhkkbzKdrVtuJFyHQv51n
+---
+ .github/TESTING_ISSUES.md             |  44 --
+ .github/workflows/weekly_curation.yml |  77 ----
+ requirements.txt                      |   6 -
+ scripts/curate_articles.py            | 609 --------------------------
+ 4 files changed, 736 deletions(-)
+ delete mode 100644 .github/TESTING_ISSUES.md
+ delete mode 100644 .github/workflows/weekly_curation.yml
+ delete mode 100644 requirements.txt
+ delete mode 100644 scripts/curate_articles.py
+
+diff --git a/.github/TESTING_ISSUES.md b/.github/TESTING_ISSUES.md
+deleted file mode 100644
+index 2dc9058..0000000
+--- a/.github/TESTING_ISSUES.md
++++ /dev/null
+@@ -1,44 +0,0 @@
+-# 🧪 Testing & Validation Issues for Literature Curation Automation
+-
+-This document outlines the testing tasks and issue templates required to fully validate and finalize the automated literature monitoring pipeline.
+-
+----
+-
+-## Issue 1: Test Gemini API Rate Limits & Query Optimization
+-**Labels:** `automation`, `performance`, `testing`
+-
+-### Description
+-The literature curation script queries the Google Gemini API with Google Search Grounding across 8 README sections. Under free-tier constraints (5 requests per minute limit), sequential querying requires strict delay management.
+-
+-### Tasks
+-- [ ] **Benchmark Query Execution:** Run `python scripts/curate_articles.py --dry-run` and measure execution time across all 8 sections with the 65s delay (~8.5–9 minutes total runtime).
+-- [ ] **Prompt Aggregation Testing:** Investigate consolidating section searches into 2–3 broader multi-topic prompts instead of 8 separate queries to reduce total API calls.
+-- [ ] **Rate Limit Error Handling:** Test API fallback when hitting HTTP 429 to verify exponential backoff and retry behavior.
+-
+----
+-
+-## Issue 2: Validate Search Grounding Relevance, Freshness & Deduplication
+-**Labels:** `automation`, `quality-assurance`, `testing`
+-
+-### Description
+-Ensure Gemini Google Search Grounding outputs accurate, recent, non-duplicated literature entries formatted to match the repository style.
+-
+-### Tasks
+-- [ ] **URL Verification:** Verify that extracted URLs resolve directly to canonical publisher pages (DOIs, PubMed, bioRxiv, arXiv) rather than Google Search redirect links.
+-- [ ] **Publication Date Window:** Confirm that discovered papers were published within the target 14-day window.
+-- [ ] **Deduplication Check:** Confirm that existing URLs in `README.md` (200+ links) are successfully skipped.
+-- [ ] **Formatting Consistency:** Check that year-prefixed entries (`**YYYY** - [Title](URL) - Authors.`) and bullet-list entries (`- [Name](URL)`) match existing README syntax.
+-
+----
+-
+-## Issue 3: End-to-End Workflow Execution & Pull Request Validation
+-**Labels:** `ci/cd`, `github-actions`, `testing`
+-
+-### Description
+-Verify end-to-end pipeline execution in GitHub Actions via `workflow_dispatch`.
+-
+-### Tasks
+-- [ ] **Manual Dispatch Verification:** Trigger `.github/workflows/weekly_curation.yml` manually from GitHub Actions UI.
+-- [ ] **Pull Request Creation:** Verify that `peter-evans/create-pull-request@v7` successfully opens a PR on branch `curation/update-<run_id>`.
+-- [ ] **Permission Audit:** Confirm repository permissions for `GITHUB_TOKEN` vs custom Personal Access Token (`PAT_TOKEN`) if downstream CI checks are needed.
+-- [ ] **Re-enable Schedule:** Once testing passes, uncomment the cron schedule (`0 9 * * 1`) in `.github/workflows/weekly_curation.yml`.
+diff --git a/.github/workflows/weekly_curation.yml b/.github/workflows/weekly_curation.yml
+deleted file mode 100644
+index 1c44233..0000000
+--- a/.github/workflows/weekly_curation.yml
++++ /dev/null
+@@ -1,77 +0,0 @@
+-name: Weekly Literature Curation
+-
+-on:
+-  # Schedule disabled for now — use workflow_dispatch to run manually
+-  # schedule:
+-  #   - cron: "0 9 * * 1"
+-  workflow_dispatch:
+-    # Allow manual trigger from the Actions tab
+-
+-permissions:
+-  contents: write
+-  pull-requests: write
+-
+-jobs:
+-  curate:
+-    name: Curate New Articles
+-    runs-on: ubuntu-latest
+-
+-    steps:
+-      # ── 1. Checkout ────────────────────────────────────────────────────
+-      - name: Checkout repository
+-        uses: actions/checkout@v4
+-        with:
+-          fetch-depth: 1
+-
+-      # ── 2. Python setup ────────────────────────────────────────────────
+-      - name: Set up Python 3.11
+-        uses: actions/setup-python@v5
+-        with:
+-          python-version: "3.11"
+-          cache: pip
+-
+-      # ── 3. Install dependencies ────────────────────────────────────────
+-      - name: Install dependencies
+-        run: pip install -r requirements.txt
+-
+-      # ── 4. Run curation script ─────────────────────────────────────────
+-      - name: Run curate_articles.py
+-        env:
+-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+-        run: python scripts/curate_articles.py
+-
+-      # ── 5. Create Pull Request ─────────────────────────────────────────
+-      - name: Create Pull Request
+-        uses: peter-evans/create-pull-request@v7
+-        with:
+-          token: ${{ secrets.GITHUB_TOKEN }}
+-          branch: curation/update-${{ github.run_id }}
+-          delete-branch: true
+-          title: "📚 Weekly Literature Update — ${{ github.event.repository.name }}"
+-          body: |
+-            ## Automated Literature Curation
+-
+-            This PR was generated automatically by the **Weekly Literature Curation** workflow.
+-
+-            ### What happened
+-            - The [curate_articles.py](scripts/curate_articles.py) script queried the **Google Gemini API** with **Search Grounding** to discover new research-integrity literature published in the last 14 days.
+-            - New entries were formatted to match the repository's Markdown style and inserted into the appropriate sections of `README.md`.
+-            - Duplicate URLs already present in the repository were filtered out.
+-
+-            ### Action required
+-            Please **review the changes** carefully before merging:
+-            - [ ] Verify that all URLs resolve to the correct publications
+-            - [ ] Confirm titles, authors, and summaries are accurate
+-            - [ ] Check that entries are placed in the correct sections
+-            - [ ] Ensure the Markdown formatting is consistent
+-
+-            > [!NOTE]
+-            > This PR was created by a GitHub Actions workflow using AI-assisted search.
+-            > Human review is required before merging.
+-
+-            ---
+-            *Workflow run: [`${{ github.run_id }}`](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})*
+-          commit-message: "docs: add weekly curated literature entries"
+-          labels: |
+-            automated
+-            curation
+diff --git a/requirements.txt b/requirements.txt
+deleted file mode 100644
+index f64e7b6..0000000
+--- a/requirements.txt
++++ /dev/null
+@@ -1,6 +0,0 @@
+-# Dependencies for the automated literature curation pipeline
+-# Install with: pip install -r requirements.txt
+-
+-google-genai>=1.0.0
+-requests>=2.31.0
+-python-dotenv>=1.0.0
+diff --git a/scripts/curate_articles.py b/scripts/curate_articles.py
+deleted file mode 100644
+index a6d4526..0000000
+--- a/scripts/curate_articles.py
++++ /dev/null
+@@ -1,609 +0,0 @@
+-#!/usr/bin/env python3
+-"""
+-curate_articles.py — Automated literature curation for awesome-good-science.
+-
+-Uses the Google Gemini API with Google Search Grounding to discover new
+-research-integrity literature, format it to match the repository's Markdown
+-style, and update README.md so that an automated PR can be opened.
+-
+-Usage:
+-    python scripts/curate_articles.py              # normal run
+-    python scripts/curate_articles.py --dry-run    # preview without writing
+-
+-Environment variables:
+-    GEMINI_API_KEY  – required; Google AI Studio API key
+-    GEMINI_MODEL    – optional; override the default model (gemini-2.5-flash)
+-"""
+-
+-from __future__ import annotations
+-
+-import json
+-import logging
+-import os
+-import re
+-import sys
+-import time
+-from dataclasses import dataclass, field
+-from datetime import datetime, timedelta
+-from pathlib import Path
+-from google import genai
+-from google.genai import types
+-
+-# ---------------------------------------------------------------------------
+-# Logging
+-# ---------------------------------------------------------------------------
+-logging.basicConfig(
+-    level=logging.INFO,
+-    format="%(asctime)s [%(levelname)s] %(message)s",
+-    datefmt="%Y-%m-%d %H:%M:%S",
+-)
+-logger = logging.getLogger("curate_articles")
+-
+-# ---------------------------------------------------------------------------
+-# Constants
+-# ---------------------------------------------------------------------------
+-REPO_ROOT = Path(__file__).resolve().parent.parent
+-README_PATH = REPO_ROOT / "README.md"
+-DEFAULT_MODEL = "gemini-3.6-flash"
+-MAX_RETRIES = 5
+-RETRY_BASE_DELAY = 60  # seconds
+-SEARCH_WINDOW_DAYS = 14
+-# Delay between Gemini calls to avoid rate-limit bursts (seconds)
+-INTER_QUERY_DELAY = 65
+-
+-
+-# ---------------------------------------------------------------------------
+-# Data classes
+-# ---------------------------------------------------------------------------
+-@dataclass
+-class ArticleEntry:
+-    """A single curated article / paper / tool discovered by the search."""
+-
+-    title: str
+-    url: str
+-    authors: str = ""
+-    year: str = ""
+-    summary: str = ""
+-
+-
+-@dataclass
+-class SectionInfo:
+-    """Metadata about a README section that we can auto-curate."""
+-
+-    heading: str
+-    level: int  # 2 → ##, 3 → ###
+-    start_line: int  # 0-indexed
+-    end_line: int  # 0-indexed, inclusive
+-    format_type: str  # "year_prefixed" | "bullet_list"
+-    search_topic: str = ""
+-
+-
+-# ---------------------------------------------------------------------------
+-# Section configuration
+-# ---------------------------------------------------------------------------
+-# Maps *exact* section headings (as they appear in README.md) to their
+-# search topic and Markdown format type.
+-SECTION_CONFIG: dict[str, dict[str, str]] = {
+-    "Integrity Reports": {
+-        "format": "year_prefixed",
+-        "topic": (
+-            "scientific misconduct investigations, paper mill discoveries, "
+-            "large-scale retraction studies, research fraud exposés, and "
+-            "reports on the integrity of the scientific record"
+-        ),
+-    },
+-    "Image Integrity Methods": {
+-        "format": "year_prefixed",
+-        "topic": (
+-            "scientific image forensics methods, biomedical image manipulation "
+-            "detection, western blot forgery detection, copy-move forgery "
+-            "detection in scientific figures, deepfake detection for "
+-            "scientific images, and synthetic image attribution"
+-        ),
+-    },
+-    "Public Image Integrity Datasets": {
+-        "format": "bullet_list",
+-        "topic": (
+-            "new public datasets for scientific image integrity, biomedical "
+-            "image forgery benchmarks, scientific figure manipulation datasets, "
+-            "and western blot or gel electrophoresis forensic datasets"
+-        ),
+-    },
+-    "Text Integrity Methods": {
+-        "format": "year_prefixed",
+-        "topic": (
+-            "AI-generated text detection in scientific papers, tortured "
+-            "phrase detection, paper mill screening using NLP, plagiarism "
+-            "detection in academic publishing, and citation manipulation "
+-            "detection methods"
+-        ),
+-    },
+-    "Public Text Integrity Datasets": {
+-        "format": "bullet_list",
+-        "topic": (
+-            "new public datasets for detecting AI-generated scientific text, "
+-            "tortured phrase corpora, and text integrity benchmarks"
+-        ),
+-    },
+-    "Gene Integrity Methods": {
+-        "format": "year_prefixed",
+-        "topic": (
+-            "nucleotide sequence verification in biomedical papers, gene "
+-            "nomenclature error detection, reagent misidentification "
+-            "screening, and automated fact-checking of genetic data in "
+-            "publications"
+-        ),
+-    },
+-    "Statistics and Science of Science": {
+-        "format": "year_prefixed",
+-        "topic": (
+-            "meta-research and science-of-science studies, publication trend "
+-            "analyses, funding impact assessments, reproducibility crisis "
+-            "updates, and large-scale bibliometric analyses of the "
+-            "scientific literature"
+-        ),
+-    },
+-    "Commercial Tools": {
+-        "format": "bullet_list",
+-        "topic": (
+-            "new commercial or SaaS tools for scientific integrity checking, "
+-            "image duplication detection services, manuscript screening "
+-            "platforms, and AI-powered publication ethics tools"
+-        ),
+-    },
+-}
+-
+-
+-# ═══════════════════════════════════════════════════════════════════════════
+-# README Parser
+-# ═══════════════════════════════════════════════════════════════════════════
+-class ReadmeParser:
+-    """Parses README.md to extract section structure and existing URLs."""
+-
+-    # Regex for markdown links: [text](url)
+-    _URL_RE = re.compile(r"\[([^\]]*)\]\((https?://[^)]+)\)")
+-    # Regex for heading lines (## or ###)
+-    _HEADING_RE = re.compile(r"^(#{2,3})\s+(.+)$")
+-
+-    def __init__(self, readme_path: Path) -> None:
+-        self.path = readme_path
+-        self.raw_text: str = ""
+-        self.lines: list[str] = []
+-        self.sections: list[SectionInfo] = []
+-        self.existing_urls: set[str] = set()
+-        self._parse()
+-
+-    # ── internal ──────────────────────────────────────────────────────────
+-
+-    def _parse(self) -> None:
+-        """Read the file, extract headings/sections, and collect URLs."""
+-        self.raw_text = self.path.read_text(encoding="utf-8")
+-        self.lines = self.raw_text.splitlines(keepends=True)
+-        self._extract_sections()
+-        self._extract_urls()
+-        logger.info(
+-            "Parsed README: %d lines, %d searchable sections, %d existing URLs",
+-            len(self.lines),
+-            len(self.sections),
+-            len(self.existing_urls),
+-        )
+-
+-    def _extract_sections(self) -> None:
+-        """Identify heading lines, compute ranges, map to config."""
+-        headings: list[tuple[int, int, str]] = []  # (line_idx, level, text)
+-        for idx, line in enumerate(self.lines):
+-            m = self._HEADING_RE.match(line.rstrip())
+-            if m:
+-                headings.append((idx, len(m.group(1)), m.group(2).strip()))
+-
+-        for i, (line_num, level, heading) in enumerate(headings):
+-            end = headings[i + 1][0] - 1 if i + 1 < len(headings) else len(self.lines) - 1
+-            cfg = SECTION_CONFIG.get(heading)
+-            if cfg is None:
+-                continue  # not a section we curate
+-            self.sections.append(
+-                SectionInfo(
+-                    heading=heading,
+-                    level=level,
+-                    start_line=line_num,
+-                    end_line=end,
+-                    format_type=cfg["format"],
+-                    search_topic=cfg["topic"],
+-                )
+-            )
+-
+-    def _extract_urls(self) -> None:
+-        """Collect every URL already present in README.md."""
+-        for line in self.lines:
+-            for m in self._URL_RE.finditer(line):
+-                url = m.group(2).rstrip("/")
+-                self.existing_urls.add(url)
+-                # Also store without trailing slash and with both http/https
+-                if url.startswith("https://"):
+-                    self.existing_urls.add("http://" + url[8:])
+-                elif url.startswith("http://"):
+-                    self.existing_urls.add("https://" + url[7:])
+-
+-    # ── public helpers ────────────────────────────────────────────────────
+-
+-    def find_insertion_line(self, section: SectionInfo) -> int:
+-        """Return the 0-indexed line where new entries should be inserted.
+-
+-        Strategy:
+-          • Skip the heading line itself.
+-          • Skip blank lines and non-entry description paragraphs.
+-          • Return the index of the first actual entry (so we insert *before* it).
+-          • If the section is empty, return just after the heading + one blank line.
+-        """
+-        i = section.start_line + 1
+-
+-        # Skip leading blank lines
+-        while i <= section.end_line and self.lines[i].strip() == "":
+-            i += 1
+-
+-        if section.format_type == "year_prefixed":
+-            # Skip description paragraphs until we hit a **YYYY** entry
+-            while i <= section.end_line:
+-                stripped = self.lines[i].strip()
+-                if re.match(r"^\*\*\d{4}\*\*", stripped):
+-                    break
+-                # Also stop if we hit a sub-heading
+-                if stripped.startswith("#"):
+-                    break
+-                i += 1
+-        elif section.format_type == "bullet_list":
+-            while i <= section.end_line:
+-                stripped = self.lines[i].strip()
+-                if re.match(r"^- \[", stripped):
+-                    break
+-                if stripped.startswith("#"):
+-                    break
+-                i += 1
+-
+-        return i
+-
+-
+-# ═══════════════════════════════════════════════════════════════════════════
+-# Gemini Curator
+-# ═══════════════════════════════════════════════════════════════════════════
+-class GeminiCurator:
+-    """Queries Gemini with Google Search Grounding to find new articles."""
+-
+-    def __init__(self, api_key: str, model: str | None = None) -> None:
+-        self.client = genai.Client(api_key=api_key)
+-        self.model = model or os.environ.get("GEMINI_MODEL", DEFAULT_MODEL)
+-        self.search_tool = types.Tool(google_search=types.GoogleSearch())
+-        logger.info("Gemini client initialised (model=%s)", self.model)
+-
+-    # ── public ────────────────────────────────────────────────────────────
+-
+-    def search_for_section(
+-        self,
+-        section: SectionInfo,
+-        existing_urls: set[str],
+-    ) -> list[ArticleEntry]:
+-        """Search the web for recent articles matching *section* and return
+-        de-duplicated entries."""
+-        today = datetime.now()
+-        start_date = (today - timedelta(days=SEARCH_WINDOW_DAYS)).strftime("%B %d, %Y")
+-        end_date = today.strftime("%B %d, %Y")
+-
+-        prompt = self._build_prompt(section, start_date, end_date)
+-        logger.info("Searching for section: %s", section.heading)
+-
+-        try:
+-            response = self._call_with_retry(prompt)
+-        except Exception:
+-            logger.exception("Gemini API call failed for section '%s'", section.heading)
+-            return []
+-
+-        if response is None or not response.text:
+-            logger.warning("Empty response for section '%s'", section.heading)
+-            return []
+-
+-        entries = self._parse_response(response)
+-
+-        # Deduplicate against existing URLs
+-        filtered: list[ArticleEntry] = []
+-        for entry in entries:
+-            normalized = entry.url.rstrip("/")
+-            if normalized in existing_urls:
+-                logger.debug("Skipping duplicate URL: %s", entry.url)
+-                continue
+-            # Also skip entries with empty or clearly invalid URLs
+-            if not entry.url.startswith("http"):
+-                logger.debug("Skipping invalid URL: %s", entry.url)
+-                continue
+-            filtered.append(entry)
+-            # Add to the set so intra-batch duplicates are caught
+-            existing_urls.add(normalized)
+-
+-        logger.info(
+-            "Section '%s': found %d entries, %d new after dedup",
+-            section.heading,
+-            len(entries),
+-            len(filtered),
+-        )
+-        return filtered
+-
+-    # ── private ───────────────────────────────────────────────────────────
+-
+-    def _build_prompt(
+-        self, section: SectionInfo, start_date: str, end_date: str
+-    ) -> str:
+-        return (
+-            "You are a research librarian specialising in scientific integrity, "
+-            "research ethics, and reproducibility.\n\n"
+-            f"Search the web for scholarly articles, academic papers, preprints, "
+-            f"or official reports **published between {start_date} and {end_date}** "
+-            f"that are related to:\n\n"
+-            f"  {section.search_topic}\n\n"
+-            "Focus on:\n"
+-            "• Peer-reviewed journal articles (DOI links preferred)\n"
+-            "• Preprints on arXiv, bioRxiv, or medRxiv\n"
+-            "• Official reports from research integrity organisations\n"
+-            "• Significant coverage in Nature, Science, PNAS, The Lancet, BMJ, "
+-            "Retraction Watch, or similar established outlets\n\n"
+-            "Return your findings as a JSON array inside a ```json fenced code "
+-            "block.  Each object must have exactly these keys:\n\n"
+-            '  "title"   – the exact title of the paper or article\n'
+-            '  "url"     – the direct, canonical URL (DOI or publisher page)\n'
+-            '  "authors" – author list in "LastName, I." format; use "et al." '
+-            "after three authors\n"
+-            '  "year"    – publication year as a four-digit string\n'
+-            '  "summary" – a concise one-to-two-sentence description\n\n'
+-            "Rules:\n"
+-            "1. Only include results you are confident are real, published works.\n"
+-            "2. Do NOT fabricate entries or URLs.\n"
+-            "3. If you cannot find any relevant recent publications, return an "
+-            "empty JSON array: `[]`\n"
+-            "4. Return at most 10 entries, ranked by relevance.\n"
+-        )
+-
+-    def _call_with_retry(self, prompt: str) -> Any:
+-        """Call Gemini with exponential back-off on rate-limit errors."""
+-        config = types.GenerateContentConfig(
+-            tools=[self.search_tool],
+-            temperature=0.1,
+-        )
+-        last_exc: Exception | None = None
+-        for attempt in range(MAX_RETRIES):
+-            try:
+-                response = self.client.models.generate_content(
+-                    model=self.model,
+-                    contents=prompt,
+-                    config=config,
+-                )
+-                return response
+-            except Exception as exc:
+-                last_exc = exc
+-                err_str = str(exc)
+-                if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
+-                    delay = RETRY_BASE_DELAY * (2 ** attempt)
+-                    logger.warning(
+-                        "Rate-limited (attempt %d/%d). Retrying in %ds…",
+-                        attempt + 1,
+-                        MAX_RETRIES,
+-                        delay,
+-                    )
+-                    time.sleep(delay)
+-                else:
+-                    raise
+-        raise RuntimeError(
+-            f"Gemini API call failed after {MAX_RETRIES} retries"
+-        ) from last_exc
+-
+-    def _parse_response(self, response: Any) -> list[ArticleEntry]:
+-        """Extract ArticleEntry objects from the Gemini text response.
+-
+-        The response text is expected to contain a ```json code block with
+-        an array of article objects.
+-        """
+-        text: str = response.text or ""
+-
+-        # Try to extract a JSON code block
+-        json_match = re.search(
+-            r"```(?:json)?\s*\n(.*?)```", text, re.DOTALL
+-        )
+-        if json_match:
+-            json_str = json_match.group(1).strip()
+-        else:
+-            # Fallback: try to find a bare JSON array in the text
+-            arr_match = re.search(r"(\[.*\])", text, re.DOTALL)
+-            if arr_match:
+-                json_str = arr_match.group(1).strip()
+-            else:
+-                logger.warning("No JSON found in Gemini response")
+-                return []
+-
+-        try:
+-            data = json.loads(json_str)
+-        except json.JSONDecodeError as exc:
+-            logger.warning("Failed to parse JSON from response: %s", exc)
+-            return []
+-
+-        if not isinstance(data, list):
+-            logger.warning("Expected JSON array, got %s", type(data).__name__)
+-            return []
+-
+-        entries: list[ArticleEntry] = []
+-        for item in data:
+-            if not isinstance(item, dict):
+-                continue
+-            title = str(item.get("title", "")).strip()
+-            url = str(item.get("url", "")).strip()
+-            if not title or not url:
+-                continue
+-            entries.append(
+-                ArticleEntry(
+-                    title=title,
+-                    url=url,
+-                    authors=str(item.get("authors", "")).strip(),
+-                    year=str(item.get("year", "")).strip(),
+-                    summary=str(item.get("summary", "")).strip(),
+-                )
+-            )
+-        return entries
+-
+-
+-# ═══════════════════════════════════════════════════════════════════════════
+-# Markdown formatting helpers
+-# ═══════════════════════════════════════════════════════════════════════════
+-
+-def format_year_prefixed(entry: ArticleEntry) -> str:
+-    """Format an entry in the year-prefixed style used for papers.
+-
+-    Example output:
+-        **2025** - [Title](URL) - Authors.
+-
+-        - Summary.
+-
+-    """
+-    year = entry.year or str(datetime.now().year)
+-    author_part = f" - {entry.authors}" if entry.authors else ""
+-    # Ensure authors end with a period if present
+-    if author_part and not author_part.rstrip().endswith("."):
+-        author_part = author_part.rstrip() + "."
+-    line = f"**{year}** - [{entry.title}]({entry.url}){author_part}\n"
+-    if entry.summary:
+-        summary = entry.summary.rstrip(".")
+-        line += f"\n- {summary}.\n"
+-    line += "\n"
+-    return line
+-
+-
+-def format_bullet_list(entry: ArticleEntry) -> str:
+-    """Format an entry in the bullet-list style used for datasets/tools.
+-
+-    Example output:
+-        - [Name](URL)
+-          - Description.
+-
+-    """
+-    line = f"- [{entry.title}]({entry.url})\n"
+-    if entry.summary:
+-        summary = entry.summary.rstrip(".")
+-        line += f"  - {summary}.\n"
+-    return line
+-
+-
+-FORMATTERS = {
+-    "year_prefixed": format_year_prefixed,
+-    "bullet_list": format_bullet_list,
+-}
+-
+-
+-# ═══════════════════════════════════════════════════════════════════════════
+-# README updater
+-# ═══════════════════════════════════════════════════════════════════════════
+-
+-def insert_entries(
+-    lines: list[str],
+-    section: SectionInfo,
+-    entries: list[ArticleEntry],
+-    insertion_line: int,
+-) -> list[str]:
+-    """Return a new list of lines with *entries* inserted at *insertion_line*.
+-
+-    The entries are formatted according to the section's format_type.
+-    """
+-    formatter = FORMATTERS[section.format_type]
+-    block = ""
+-    for entry in entries:
+-        block += formatter(entry)
+-
+-    new_lines = list(lines)
+-    # Split the block into individual lines (preserving newlines)
+-    block_lines = [l + "\n" if not l.endswith("\n") else l for l in block.splitlines()]
+-    # Ensure there is a blank line before existing content
+-    if (
+-        insertion_line < len(new_lines)
+-        and new_lines[insertion_line].strip() != ""
+-        and block_lines
+-        and block_lines[-1].strip() != ""
+-    ):
+-        block_lines.append("\n")
+-    new_lines[insertion_line:insertion_line] = block_lines
+-    return new_lines
+-
+-
+-# ═══════════════════════════════════════════════════════════════════════════
+-# Main entry point
+-# ═══════════════════════════════════════════════════════════════════════════
+-
+-def main() -> None:
+-    dry_run = "--dry-run" in sys.argv
+-
+-    # ── 1. Validate environment ───────────────────────────────────────────
+-    api_key = os.environ.get("GEMINI_API_KEY", "").strip()
+-    if not api_key:
+-        logger.error(
+-            "GEMINI_API_KEY environment variable is not set. "
+-            "Please set it to your Google AI Studio API key."
+-        )
+-        sys.exit(1)
+-
+-    if not README_PATH.exists():
+-        logger.error("README.md not found at %s", README_PATH)
+-        sys.exit(1)
+-
+-    # ── 2. Parse README ──────────────────────────────────────────────────
+-    parser = ReadmeParser(README_PATH)
+-    if not parser.sections:
+-        logger.warning("No searchable sections found in README.md. Exiting.")
+-        sys.exit(0)
+-
+-    # ── 3. Search for new articles per section ───────────────────────────
+-    curator = GeminiCurator(api_key)
+-    # We accumulate (section, entries, insertion_line) tuples.
+-    # Entries must be inserted from *bottom to top* so that line numbers
+-    # computed from the original file remain valid after each insertion.
+-    updates: list[tuple[SectionInfo, list[ArticleEntry], int]] = []
+-
+-    for section in parser.sections:
+-        entries = curator.search_for_section(section, parser.existing_urls)
+-        if entries:
+-            ins_line = parser.find_insertion_line(section)
+-            updates.append((section, entries, ins_line))
+-        # Politeness delay between API calls
+-        time.sleep(INTER_QUERY_DELAY)
+-
+-    if not updates:
+-        logger.info("No new entries found across any section. README unchanged.")
+-        sys.exit(0)
+-
+-    # ── 4. Insert entries into README (bottom-up to preserve line nums) ──
+-    lines = list(parser.lines)
+-    # Sort updates by insertion line descending so earlier insertions don't
+-    # shift later ones.
+-    updates.sort(key=lambda t: t[2], reverse=True)
+-    total_new = 0
+-    for section, entries, ins_line in updates:
+-        lines = insert_entries(lines, section, entries, ins_line)
+-        total_new += len(entries)
+-        logger.info(
+-            "Inserted %d entries into '%s' at line %d",
+-            len(entries),
+-            section.heading,
+-            ins_line + 1,
+-        )
+-
+-    # ── 5. Write updated README ──────────────────────────────────────────
+-    if dry_run:
+-        logger.info("[DRY RUN] Would write %d new entries. Preview:", total_new)
+-        print("".join(lines))
+-    else:
+-        README_PATH.write_text("".join(lines), encoding="utf-8")
+-        logger.info(
+-            "README.md updated successfully with %d new entries.", total_new
+-        )
+-
+-    # ── 6. Summary ───────────────────────────────────────────────────────
+-    logger.info("=== Curation Summary ===")
+-    for section, entries, _ in sorted(updates, key=lambda t: t[0].start_line):
+-        logger.info("  %-40s  +%d entries", section.heading, len(entries))
+-    logger.info("  %-40s  +%d entries", "TOTAL", total_new)
+-
+-
+-if __name__ == "__main__":
+-    main()
+-- 
+2.43.0
+
