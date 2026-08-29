@@ -17,6 +17,7 @@
 - [Commercial Tools](#commercial-tools)
 - [Organizations](#organizations)
 - [Conferences and Journals](#conferences-and-journals)
+- [Related Awesome Lists](#related-awesome-lists)
 - [Contributing](#contributing)
 
 ## Research Motivation and Integrity News
@@ -578,10 +579,29 @@ Papers discussing attributes of science, evolution, publication trends, and fund
 
 ## Related Awesome Lists
 
-- [awesome-computational-social-science](https://github.com/gesiscss/awesome-computational-social-science) - Resources for computational social science, including social data biases and ethics.
-- [awesome-open-science-software](https://github.com/inria/awesome-open-science-software) - Curated list of open source software for open science.
-- [awesome-safety-critical-ai](https://github.com/dependable-ai/awesome-safety-critical-ai) - Resources for safety-critical AI, including reliability and failure mode analysis.
-- [awesome-computational-biology](https://github.com/manuzhang/awesome-computational-biology) - Curated list of computational biology resources.
+Lists grouped to mirror the sections above. The forensics and detection lists are
+general-purpose (natural images, faces, generic text); the techniques they index are
+the same ones applied to figures and manuscripts in the scientific literature.
+
+### Image and Media Forensics
+
+- [Image Forgery Detection and Localization Papers](https://github.com/greatzh/Papers) - Papers on splicing, copy-move, inpainting and AIGC tampering detection, the core methods behind figure duplication analysis.
+- [Image Forgery Datasets List](https://github.com/greatzh/Image-Forgery-Datasets-List) - Datasets for forgery detection and localization, indexed by manipulation type, format and post-processing.
+- [Awesome Deepfakes Detection](https://github.com/Daisy-Zhang/Awesome-Deepfakes-Detection) - Datasets, tools, competitions and papers for detecting manipulated faces in images and video.
+- [Awesome AIGC Image and Video Detection](https://github.com/ant-research/Awesome-AIGC-Image-Video-Detection) - Benchmarks, MLLM-based detectors and open-source tools for identifying AI-generated images and video.
+- [Awesome GenAI Watermarking](https://github.com/and-mill/Awesome-GenAI-Watermarking) - Watermarking schemes for generative models, plus C2PA and content-provenance resources.
+
+### Text and LLM Integrity
+
+- [Awesome Machine-Generated Text](https://github.com/ICTMCG/Awesome-Machine-Generated-Text) - Continuously updated resources on generative LLMs, their societal analysis, and machine-generated text detection.
+- [Papers on LLM-Generated Text Detection](https://github.com/Xianjun-Yang/Awesome_papers_on_LLMs_detection) - Detection of LLM-written text and code: training-based, zero-shot, watermarking, fingerprinting, evasion attacks and datasets.
+- [Awesome Hallucination Detection](https://github.com/EdinburghNLP/awesome-hallucination-detection) - Papers on hallucination and factuality detection in LLMs, annotated with metrics, datasets and evaluation setups.
+
+### Open Science, Metascience, and Scholarly Data
+
+- [Awesome Scholarly Data Analysis](https://github.com/napsternxg/awesome-scholarly-data-analysis) - Datasets, papers and tools for bibliometrics, citation analysis and peer review, including OpenAlex and PeerRead.
+- [Awesome Reproducible Research](https://github.com/leipzig/awesome-reproducible-research) - Reproducible research case studies, tooling, reporting standards, journals and organizations.
+- [Awesome Open Science Software](https://github.com/ASSERT-KTH/awesome-open-science-software) - Open source software for open science, covering software as a research object and open science infrastructure.
 
 
 ## Contributing
