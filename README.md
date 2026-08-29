@@ -25,6 +25,10 @@ Papers and reports denouncing cases of possible scientific misconduct or related
 
 ### Integrity Reports
 
+**2026** - [More than 18,000 questionable images found in antibody catalogues of 15 companies](https://www.nature.com/articles/d41586-026-02635-w) - Garisto, D.
+
+- Metascientist Reese Richardson found over 18,000 potentially altered validation images across 17,495 antibody products from 15-16 vendors; more than half of the antibodies reportedly did not work as advertised. Underlying data: [Zenodo dataset](https://zenodo.org/records/22090940). Related coverage: [Science](https://www.science.org/content/article/fraudulent-images-are-rife-antibody-sellers-websites-researcher-says), [The Scientist](https://www.the-scientist.com/misleading-antibody-validation-images-controversy-expands-to-15-vendors-74915), [Reese Richardson's blog](https://reeserichardson.blog/2026/08/25/at-least-15-companies-are-selling-antibodies-using-faked-validation-data/).
+
 **2026** - [Follow-up investigation of ethics approvals and regulatory compliance in publications from the IHU-Mi](https://doi.org/10.1186/s41073-026-00234-x) - Frank, F., Bik, E.M., Meyerowitz-Katz, G., et al.
 
 - Audited 2,674 publications from the IHU-Méditerranée Infection, finding ethical concerns in 853 articles and mismatches between stated approvals and the research actually described in 81.3% of the 374 cases where approval documents were obtained.
@@ -300,6 +304,8 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
 ### Public Image Integrity Datasets
 
 
+- [Problematic images in vendor antibody verification data](https://zenodo.org/records/22090940)
+  * 18,943 suspicious or manipulated antibody verification images across 17,495 products from 16 vendors, with original images, annotated versions flagging the issues, and a spreadsheet cataloging each case with vendor and product details (Richardson, R. and David, S.).
 - [Recod.ai/LUC Scientific Image Forgery Detection Challenge Set](https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection)
   * A challenge set of 5,128 biomedical research images (2,377 authentic, 2,751 copy-move forged) used as the primary benchmark in recent copy-move forensics work.
 - [Recod.ai Scientific Image Integrity Dataset (RSIID)](https://zenodo.org/records/15095089)
