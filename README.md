@@ -509,6 +509,14 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
 
 - Shows that SMMC-7721, long used as a hepatocellular carcinoma model, is actually HeLa-derived, undermining conclusions from studies that relied on it for liver-cancer-specific findings.
 
+**2026** - [Universal Presence of Gene/Variant Nomenclature Errors in Journal Manuscript Submissions](https://doi.org/10.1093/clinchem/hvag010) - Lansdon, L.A., Porath, B., Mori, M., et al.
+
+- Every one of 52 manuscripts submitted to Genetics in Medicine over two years contained at least one gene or variant nomenclature error, errors that make variants harder to find in routine searches and can lead to missed diagnoses.
+
+**2026** - [Genenames.org: the HGNC and PGNC resources in 2026](https://doi.org/10.1093/nar/gkaf1229) - Seal, R.L., Braschi, B., Gray, K., et al.
+
+- The HGNC's annual update reports around 44,400 approved human gene symbols, describes efforts to stabilise clinically relevant nomenclature and replace placeholder symbols, and introduces a new Plant Gene Nomenclature Committee.
+
 **2026** - [ICLAC Has Released Version 14 of Its Misidentified Cell Line Register: Updating the Global Watchlist of Misidentified Cell Lines](https://doi.org/10.3390/cells15070576) - Weiskirchen, R.
 
 - Announces version 14 of the ICLAC register — 608 misidentified lines, 560 with no known authentic stock — and recommends routine register checks and STR profiling enforced by journals, funders and institutions.
@@ -588,6 +596,8 @@ Papers discussing attributes of science, evolution, publication trends, and fund
 
 ### Public Retraction Datasets
 
+- [Mapping Academic Integrity: Annual Publication and Retraction by Topic](https://zenodo.org/records/22190677)
+  * Web of Science publication and retraction counts for 2000–2025, with retraction reasons, retraction rates and growth rates broken down at macro, meso and micro topic levels; supplements arXiv preprint 2511.21176 (Zhou, Z., Lou, Y., Shen, Z., and Li, M.).
 - [Retraction Watch Database](https://gitlab.com/crossref/retraction-watch-data)
   * The open record of retractions, corrections, expressions of concern and reinstatements, distributed free by Crossref as a 20-field CSV and updated daily.
 
@@ -597,6 +607,12 @@ Papers discussing attributes of science, evolution, publication trends, and fund
 
 - [Zintzo Research Integrity (River Valley Technologies)](https://www.stm-publishing.com/river-valley-technologies-launches-zintzo-research-integrity-with-risk-triage-dashboard/)
   - Advertises a Risk Triage Dashboard consolidating over 40 manuscript integrity checks across content, references, metadata, authorship and AI-related risk signals into a single color-coded assessment, with optional integrations with ImageTwin and Clear Skies.
+- [Check Integrity (Elsevier)](https://www.elsevier.com/about/press-releases/elsevier-expands-article-submission-screening-tool-to-strengthen-research)
+  - Elsevier's in-house submission screen, extended to nearly 2,000 journals in March 2026, which it says flags unauthorized authorship changes, editorial conflicts of interest and other publishing-ethics breaches for review by integrity analysts.
+- [Irrelevant Reference Checker (Springer Nature)](https://group.springernature.com/gp/group/media/press-releases/new-research-integrity-ai-tool/27769148)
+  - Springer Nature's in-house AI tool, described as analysing the relevance of each reference in a submission and sending manuscripts with multiple problematic citations to its Research Integrity Group; it runs alongside the publisher's Geppetto (AI-generated text) and SnappShot (image) checks.
+- [AuthorPilot (Integra)](https://integranxt.com/press-releases/integra-launches-authorpilot-to-streamline-scholarly-publishing-workflow/)
+  - Advertises an AI manuscript pre-flight platform with customizable language, structure and research-integrity checks at submission, though the vendor does not specify which integrity checks it runs.
 - [ReviewerZero AI](https://www.reviewerzero.ai/)
   - Advertises automated checks across figure integrity, statistical revalidation, reference validation, AI-text detection and author identity verification in a single manuscript screen.
 - [Argos (Scitility)](https://www.scitility.com/argos)
