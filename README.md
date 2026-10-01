@@ -26,6 +26,34 @@ Papers and reports denouncing cases of possible scientific misconduct or related
 
 ### Integrity Reports
 
+**2026** - [This award-winning microscopy image used AI — igniting controversy in a prestigious competition](https://www.nature.com/articles/d41586-026-03086-z) - Fieldhouse, R.
+
+- A Nikon Small World in Motion award-winning video of cilia from a child with primary ciliary dyskinesia used AI for post-processing, and microscopy experts flagged biologically implausible structures that raised questions about whether the image misrepresented the underlying data.
+
+**2026** - [Elsevier journal retracts 100+ papers for authorship issues, editor conflicts of interest](https://retractionwatch.com/2026/09/22/elsevier-journal-retracts-100-papers-for-authorship-issues-editor-conflicts-of-interest/) - Orrall, A.
+
+- Elsevier's Science of the Total Environment retracted 165 papers in 2026 for unauthorized authorship changes, plagiarism and tortured phrases, and editor conflicts of interest, following the journal's November 2025 delisting from Web of Science.
+
+**2026** - [China punishes prominent academics exposed by research sleuth](https://www.nature.com/articles/d41586-026-02890-x) - You, X.
+
+- China's National Natural Science Foundation disciplined four senior academics with multi-year funding bans after a video blogger's analysis of Nature-branded papers found data fabrication and tampering, part of a wider crackdown on 31 research groups.
+
+**2026** - [Paper mill studies get cited by clinical guidelines, policy docs and more, analysis finds](https://retractionwatch.com/2026/09/17/paper-mill-studies-get-cited-by-clinical-guidelines-policy-docs-and-more-analysis-finds/) - Chawla, D.S.
+
+- An analysis of nearly 2,000 papers tied to the Pharmakon Neuroscience Network paper mill found 480 cited in patents, 57 in policy documents and 12 in clinical guidelines, while 90% of associated authors kept publishing after the mill's 2022 exposure.
+
+**2026** - [The Emerging AI Paper-Review Arms Race: Adversarial Co-Evolution in Scholarly Publishing](https://arxiv.org/abs/2609.07713) - Wang, C. et al.
+
+- A survey of 230 publications maps six interacting dynamics, from AI-scaled production to evaluation manipulation and evasion, arguing that trustworthy evaluation, not generation speed, is now the binding constraint on scholarly publishing.
+
+**2026** - [Procrastination study by Duke's Dan Ariely retracted after sleuths find signs of data tampering](https://retractionwatch.com/2026/09/03/procrastination-study-duke-dan-ariely-psychological-science-data-colada-tampering-retraction/) - Travis, K.
+
+- A 24-year-old, nearly 1,000-times-cited Psychological Science paper on deadlines and procrastination by Dan Ariely and Klaus Wertenbroch was retracted after Data Colada found duplicated values, implausible effects, and a falsified analysis submitted in response to a reviewer request.
+
+**2026** - [Nations expanding their research programmes impose sweeping penalties for malpractice](https://www.nature.com/articles/d41586-026-02517-1) - Plackett, B.
+
+- India, Peru and Vietnam are introducing government-level penalties for research misconduct, from funding bans and bonus clawbacks to national violation databases, prompting debate over distinguishing fraud from honest error.
+
 **2026** - [Hundreds of paper-mill papers peddled in ads were later published](https://doi.org/10.1126/science.ael6249) - Brainard, J.
 
 - A news investigation traces hundreds of paper-mill manuscripts advertised for sale on social media to their eventual appearance as published articles in legitimate journals, illustrating how mill output moves from marketplace to the indexed literature.
@@ -223,6 +251,10 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
 ### Image Integrity Methods
 
 
+**2026** - [GAN-Blot: A Controllable Structure-Style Synthesis Benchmark for Western Blot Forensics](https://arxiv.org/abs/2609.06619) - Shao, H.-C. et al.
+
+- Introduces a 46,000-image benchmark of synthetic western blots with independently controllable band geometry and visual style, finding domain experts and existing forensic detectors fail to identify 81.3% of the generated images as fake.
+
 **2026** - [Rescind: Countering Image Misconduct in Biomedical Publications with Vision-Language and State-Space Modeling](https://arxiv.org/abs/2601.08040) - Nandi, S., and Natarajan, P.
 
 - Introduces a ~600K-image benchmark of synthetic biomedical forgeries spanning classical, generative and VLM-guided manipulations, together with a state-space detector for localising duplication, splicing and region removal.
@@ -347,6 +379,22 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
 
 ### Text Integrity Methods
 
+**2026** - [Testing Our Foundations: Citation Trends, Errors, and Emerging Hallucinations in the Computing Education Literature](https://arxiv.org/abs/2609.16574) - Denny, P. et al.
+
+- Analysing 24,751 computing-education papers and 15 million references, finds verified hallucinated citations at the SIGCSE Technical Symposium jumped from 3 in 2025 to 17 in 2026, affecting 2.3% of proceedings papers.
+
+**2026** - [LLM-assisted writing and citation advantage: evidence from scientific publications before and after ChatGPT release](https://doi.org/10.1007/s11192-026-05805-9) - Paklina, S., Parshakov, P., and Rapoport, E.
+
+- A classifier applied to 234,073 arXiv-Crossref papers finds that those flagged as LLM-assisted receive roughly 7% more citations than non-AI papers, even after controlling for journal quality and author reputation.
+
+**2026** - [RefVerifier: Semi-Automated Reference Claim Verification for Scientific Manuscripts](https://arxiv.org/abs/2609.07652) - Mocan, S., Angermeir, F., and Kreitz, M.
+
+- Introduces a four-stage pipeline that extracts citation-bearing claims, verifies bibliography metadata and localises supporting evidence in cited papers, reaching 71% end-to-end verdict accuracy on test manuscripts.
+
+**2026** - [HalluPeer: A Taxonomy-driven Benchmark for Detecting Hallucinations in Scientific Peer Reviews](https://arxiv.org/abs/2609.03580) - Lin, T.-L. et al.
+
+- A taxonomy-driven benchmark of 12,000 papers and over 38,000 reviews shows existing hallucination detectors struggle to separate fabricated claims from legitimate critique in AI-generated peer reviews, though domain-specific fine-tuning helps substantially.
+
 **2026** - [Hallucination Rate of Peer-Reviewed Citations Generated by Large Language Models in Neurocritical Care](https://doi.org/10.1097/cce.0000000000001474) - Seifi, A., and Seyfi, A.
 
 - Tested LLM-generated citations in a neurocritical care context and found 55.0% contained a citation inaccuracy and 28.3% were entirely fabricated, quantifying the scale of hallucinated references in a clinical subspecialty.
@@ -457,6 +505,10 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
 
 ### Gene Integrity Methods
 
+**2026** - [Misidentification of SMMC-7721 undermines its use as a hepatocellular carcinoma model](https://doi.org/10.1007/s00210-026-05868-8) - Weiskirchen, R.
+
+- Shows that SMMC-7721, long used as a hepatocellular carcinoma model, is actually HeLa-derived, undermining conclusions from studies that relied on it for liver-cancer-specific findings.
+
 **2026** - [ICLAC Has Released Version 14 of Its Misidentified Cell Line Register: Updating the Global Watchlist of Misidentified Cell Lines](https://doi.org/10.3390/cells15070576) - Weiskirchen, R.
 
 - Announces version 14 of the ICLAC register — 608 misidentified lines, 560 with no known authentic stock — and recommends routine register checks and STR profiling enforced by journals, funders and institutions.
@@ -493,6 +545,10 @@ The inspiration for the talk was the trails of ivermectin for treatment of COVID
 ## Statistics and Science of Science
 
 Papers discussing attributes of science, evolution, publication trends, and funding.
+
+**2026** - [Understanding prolonged retraction lag among retracted biomedical papers: an explainable machine-learning analysis](https://doi.org/10.1007/s11192-026-05808-6) - Peng, Z. et al.
+
+- An explainable machine-learning analysis of 13,685 retracted biomedical papers finds that prolonged retraction delays stem from compounding factors rather than any single cause, with Hindawi-published papers showing comparatively shorter lags.
 
 **2026** - [Disclosure is not documentation: an open science framework for documenting generative AI use in scholarly research and publication workflows](https://doi.org/10.1186/s41073-026-00245-8) - Cwik, J.C.
 
@@ -539,6 +595,8 @@ Papers discussing attributes of science, evolution, publication trends, and fund
 
 > **Disclaimer:** We have not tested these tools and cannot verify their effectiveness or accuracy. Inclusion in this list does not constitute an endorsement.
 
+- [Zintzo Research Integrity (River Valley Technologies)](https://www.stm-publishing.com/river-valley-technologies-launches-zintzo-research-integrity-with-risk-triage-dashboard/)
+  - Advertises a Risk Triage Dashboard consolidating over 40 manuscript integrity checks across content, references, metadata, authorship and AI-related risk signals into a single color-coded assessment, with optional integrations with ImageTwin and Clear Skies.
 - [ReviewerZero AI](https://www.reviewerzero.ai/)
   - Advertises automated checks across figure integrity, statistical revalidation, reference validation, AI-text detection and author identity verification in a single manuscript screen.
 - [Argos (Scitility)](https://www.scitility.com/argos)
